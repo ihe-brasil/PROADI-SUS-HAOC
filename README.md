@@ -45,7 +45,7 @@ Ator: Patient Identity Source - [testes preliminares](Technical%20Instructions/t
 
 [Projeto SOAPUI](./SOAPUI%20Projects/Gazelle-Patient-Manager-examples-soapui-project.xml) com exemplos de PIXv/PDQv3 baseados na utilização da ferramenta [Gazelle Patient Manager](https://gazelle.ihe.net/PatientManager/home.seam) 
 
-[Schemas & WSDLs](./schemas%20&%20wsdls) e exemplos de mensagens [PDQv3](./IHE%20messages%20examples/PDQV3) e [PIXv3](./IHE%20messages%20examples/PIXV3) 
+[Schemas & WSDLs](./IHE%20schemas%20&%20wsdls) e exemplos de mensagens [PDQv3](./IHE%20messages%20examples/PDQV3) e [PIXv3](./IHE%20messages%20examples/PIXV3) 
 
 Forum técnico internacional de desenvolvedores [PIXv3/PDQv3](https://groups.google.com/forum/#!forum/ihe_pix_pdq_testing)
 
@@ -63,7 +63,7 @@ Wrappers
 
 ### HL7
 
-- [HL7 v3 edition 2008](./HL7v3%20/Edition2008%20cd)
+- [HL7 v3 edition 2008](./HL7v3%20Edition2008%20cd)
 
 -----
 
