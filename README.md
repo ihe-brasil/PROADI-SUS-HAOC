@@ -22,7 +22,7 @@ Atores: Document Source e Document Consumer - [testes preliminares](Technical%20
 
 [Projeto SOAPUI](./SOAPUI%20Projects/NIST%20XDS-Toolkit-Examples-soapui-project.xml) com exemplos baseados na utilização da ferramenta NIST XDS ToolKit 
 
-Exemplos de mensagens [PDQv3](./IHE%20messages%20examples/XDS.b) - [Schemas & WSDLs](./schemas%20&%20wsdls)
+[Schemas & WSDLs](./schemas%20&%20wsdls) e exemplos de mensagens [XDS.b](./IHE%20messages%20examples/XDS.b)
 
 Forum técnico internacional de [desenvolvedores XDS.b](https://groups.google.com/forum/#!forum/ihe-xds-implementors)
 
@@ -45,7 +45,7 @@ Ator: Patient Identity Source - [testes preliminares](Technical%20Instructions/t
 
 [Projeto SOAPUI](./SOAPUI%20Projects/Gazelle-Patient-Manager-examples-soapui-project.xml) com exemplos de PIXv/PDQv3 baseados na utilização da ferramenta [Gazelle Patient Manager](https://gazelle.ihe.net/PatientManager/home.seam) 
 
-Exemplos de mensagens [PDQv3](./IHE%20messages%20examples/PDQV3) e [PIXv3](./IHE%20messages%20examples/PIXV3) - [Schemas & WSDLs](./schemas%20&%20wsdls)
+[Schemas & WSDLs](./schemas%20&%20wsdls) e exemplos de mensagens [PDQv3](./IHE%20messages%20examples/PDQV3) e [PIXv3](./IHE%20messages%20examples/PIXV3) 
 
 Forum técnico internacional de desenvolvedores [PIXv3/PDQv3](https://groups.google.com/forum/#!forum/ihe_pix_pdq_testing)
 
