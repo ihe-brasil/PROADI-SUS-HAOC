@@ -22,7 +22,7 @@ Atores: Document Source e Document Consumer - [testes preliminares](Technical%20
 
 [Projeto SOAPUI](./SOAPUI%20Projects/NIST%20XDS-Toolkit-Examples-soapui-project.xml) com exemplos baseados na utilização da ferramenta NIST XDS ToolKit 
 
-[Schemas & WSDLs](./schemas%20&%20wsdls) e exemplos de mensagens [XDS.b](./IHE%20messages%20examples/XDS.b)
+[Schemas & WSDLs](./IHE%20schemas%20&%20wsdls) e exemplos de mensagens [XDS.b](./IHE%20messages%20examples/XDS.b)
 
 Forum técnico internacional de [desenvolvedores XDS.b](https://groups.google.com/forum/#!forum/ihe-xds-implementors)
 
