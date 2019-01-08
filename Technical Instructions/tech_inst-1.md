@@ -1,7 +1,6 @@
 # Instrução para Registro de Sistemas no Gazelle
 
-Esta págna descreve os passos básicos para cadastramento de organização, contatos e registro de sistemas para uma
-organização no sistema Gazelle Test Management.
+Esta página descreve os passos básicos para cadastramento de organização, contatos e registro de sistemas para uma organização no sistema Gazelle Test Management.
 
 ### 1. Criar nova conta de usuário no Gazelle
 
@@ -83,8 +82,7 @@ Para cadastrar usuários, acesso o menu Registration -&gt; Manage users.
 
 ![](./media/image12.png)
 
-E informe os dados para os novos usuários,
-clicando em “Save” ao final.
+Informe os dados solicitados para os novos usuários, e clique em “Save” ao final.
 
 ### 4. Cadastrar Sistemas para uma Organização
 
@@ -127,11 +125,11 @@ Clique no botão verde “Add IHE implementations” para que a tela de seleçã
 
 ![](./media/image17.png)
 
-Neste momento, será necessário selecionar todas as combinações de perfis, atores e opções que representam os testes que a organização pretende realizar para o sistema em questão.
-
 Observe que o campo Integration Profile irá apenas apresentar os perfis disponíveis para teste na Maratona de Conectividade. 
 
-Para facilitar a análise, selecione o perfil de integração e o ator sendo analisado. Por exemplo, Perfil: "PDQv3 Patient Demographics Query" e ator: "PDC - Patient Demographics Consumer". Na sequência, analise as alternativas apresentadas.
+Neste momento, será necessário selecionar todas as combinações de perfis, atores e opções que representam os testes que a organização pretende realizar para o sistema em questão.
+
+Para facilitar, selecione o perfil de integração e o ator em análise. Por exemplo, Perfil: "PDQv3 Patient Demographics Query" e ator: "PDC - Patient Demographics Consumer". Na sequência, selecione a combinação (ou combinações) dentre as alternativas apresentadas.
 
 ![](./media/image18.png)
 
@@ -193,6 +191,8 @@ PDQV3 - Patient Demographic Query HL7 V3	|PDS - Patient Demographics Supplier	|C
 PDQV3 - Patient Demographic Query HL7 V3	|PDS - Patient Demographics Supplier	|PEDIATRIC_DEMOG - Pediatric Demographics
 PIXV3 - Patient Identifier Cross-Reference HL7 V3	|PAT_IDENTITY_X_REF_MGR - Patient Identity Cross-reference Manager	|NONE - None
 PIXV3 - Patient Identifier Cross-Reference HL7 V3	|PAT_IDENTITY_X_REF_MGR - Patient Identity Cross-reference Manager	|PEDIATRIC_DEMOG - Pediatric Demographics
+
+> IMPORTANTE: Após o período de registro, o Gerente Técnico do IHE analisará as combinações de perfil/ator/opção escolhidas, podendo, eventualmente, acrescentar ou remover alguma combinação em função da análise de todas as escolhas feitas para a maratona.
 
 Dependendo do perfil selecionado, pode aparecer um botão laranja “Missing dependencies” mostrando que existe alguma dependência identificada.
 
