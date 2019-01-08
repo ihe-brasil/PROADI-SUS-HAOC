@@ -104,7 +104,42 @@ O registro destes sistemas no Gazelle é uma etapa muito importante pois os perf
 
 IMPORTANTE: antes de proceder com o cadastro no sistema Gazelle, faça uma leitura minuciosa do Framework Técnico do IHE correspondente aos perfis que serão testados.
 
-Para a Maratona de Conectividade do PROADI-SUS HAOC considere as seguintes combinações de perfis/atores/opções:
+Utilize o menu Registration -&gt; Manage Systems para iniciar a função de cadastro de sistemas.
+
+![](./media/image13.png)
+
+Clique em “Add a System” para adicionar um novo sistema para a organização.
+
+![](./media/image14.png)
+
+Observe o campo “System Type” e selecione a opção que melhor categoriza o sistema da organização (os tipos disponíveis as vezes não são muito claros… use
+o bom senso para a escolha).
+
+![](./media/image15.png)
+
+Depois de inserir as informações requeridas, clique em “Save”.
+
+Na sequência, clique em Profile/Actors.
+
+![](./media/image16.png)
+
+Clique no botão verde “Add IHE implementations” para que a tela de seleção de perfis, atores e opções seja iniciada.
+
+![](./media/image17.png)
+
+Neste momento, será necessário selecionar todas as combinações de perfis, atores e opções que representam os testes que a organização pretende realizar para o sistema em questão.
+
+Observe que o campo Integration Profile irá apenas apresentar os perfis disponíveis para teste na Maratona de Conectividade. 
+
+Para facilitar a análise, selecione o perfil de integração e o ator sendo analisado. Por exemplo, Perfil: "PDQv3 Patient Demographics Query" e ator: "PDC - Patient Demographics Consumer". Na sequência, analise as alternativas apresentadas.
+
+![](./media/image18.png)
+
+A cada seleção de perfil, ator e opção, clique no botão “Add this IHE implementation to this system” para que a combinação perfil/ator/opção selecionada seja incorporado para o sistema.
+
+Repita este procedimento até que todos os perfis/atores e opções estejam devidamente cadastrados para o sistema em questão.
+
+> IMPORTANTE: Para a Maratona de Conectividade do PROADI-SUS HAOC considere as seguintes combinações de perfis/atores/opções:
 
 - **_Para sistemas consumidores e fornecedores de documentos_**
 
@@ -159,41 +194,8 @@ PDQV3 - Patient Demographic Query HL7 V3	|PDS - Patient Demographics Supplier	|P
 PIXV3 - Patient Identifier Cross-Reference HL7 V3	|PAT_IDENTITY_X_REF_MGR - Patient Identity Cross-reference Manager	|NONE - None
 PIXV3 - Patient Identifier Cross-Reference HL7 V3	|PAT_IDENTITY_X_REF_MGR - Patient Identity Cross-reference Manager	|PEDIATRIC_DEMOG - Pediatric Demographics
 
-Utilize o menu Registration -&gt; Manage Systems para iniciar a função de cadastro de sistemas.
-
-![](./media/image13.png)
-
-Clique em “Add a System” para adicionar um novo sistema para a organização.
-
-![](./media/image14.png)
-
-Observe o campo “System Type” e selecione a opção que melhor categoriza o sistema da organização (os tipos disponíveis as vezes não são muito claros… use
-o bom senso para a escolha).
-
-![](./media/image15.png)
-
-Depois de inserir as informações requeridas, clique em “Save”.
-
-Na sequência, clique em Profile/Actors.
-
-![](./media/image16.png)
-
-Clique no botão verde “Add IHE implementations” para que a tela de seleção de perfis, atores e opções seja iniciada.
-
-![](./media/image17.png)
-
-Neste momento, será necessário selecionar todas as combinações de perfis, atores e opções que representam os testes que a organização pretende realizar para o sistema em questão.
-
-![](./media/image18.png)
-
-Observe que o campo Integration Profile irá apenas apresentar os perfis disponíveis para teste na Maratona de Conectividade.
-
-A cada seleção de perfil, ator e opção, clique no botão “Add this IHE implementation to this system” para que a combinação perfil/ator/opção selecionada seja incorporado para o sistema.
-
-Repita este procedimento até que todos os perfis/atores e opções estejam devidamente cadastrados para o sistema em questão.
-
 Dependendo do perfil selecionado, pode aparecer um botão laranja “Missing dependencies” mostrando que existe alguma dependência identificada.
 
 ![](./media/image19.png)
 
-Se este for o caso, pressione este botão para que o sistema Gazelle sugerira os novos perfis/atores que precisam ser considerados para solucionar a dependência. 
+Se este for o caso, pressione este botão para que o sistema Gazelle faça a sugestão dos perfis/atores que precisam ser analisados para solucionar a dependência. 
