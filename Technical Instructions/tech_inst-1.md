@@ -119,7 +119,7 @@ Clique em “Add a System” para adicionar um novo sistema para a organização
 
 - Version - campo opcional que permite informar a versão do sistema/produto em cadastro.
 
-Owner - usuário técnico responsável por gerenciar o sistema durante a preparação e realização da semana de maratona de testes.
+- Owner - usuário técnico responsável por gerenciar o sistema durante a preparação e realização da semana de maratona de testes.
 
 ![](./media/image15.png)
 
