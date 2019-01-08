@@ -36,7 +36,7 @@ Verifique a lista de seções de testes e selecione a seção “IHE BRAZIL PROA
 
 ![](./media/image6.png)
 
-Após clicar na seção de testes correta, O sistema Gazelle automaticamente irá logar nesta seção. Observe no canto superior direito da tela se a seção de testes foi devidamente selecionada e se o logo do IHE Brasil aparece no canto superior esquerdo.
+Após clicar na seção de testes correta, o sistema Gazelle automaticamente irá logar nesta seção. Observe no canto superior direito da tela se a seção de testes foi devidamente selecionada e se o logo do IHE Brasil aparece no canto superior esquerdo.
 
 ![](./media/image7.png)
 
@@ -110,12 +110,12 @@ Clique em “Add a System” para adicionar um novo sistema para a organização
 
 ![](./media/image14.png)
 
-- Organization Keyword - acrônimo da organização proprietária do sistema, informado durante o cadastro da organização.
+- Organization Keyword - acrônimo da organização proprietária do sistema.
 - System/Product Name - nome atribuido ao sistema. Como a organização se refere ao sistema. 
 - System type - categoria genérica do sistema, por exemplo: PACS, EHR, XDS.b_REP, etc. 
     - Nota 1: as categorias são amplas e não existe resposta correta ou errada para este campo. Utilize o bom senso para realizar esta categorização.
     - Nota 2: a categoria escolhida fará parte do "codinome" do seu sistema, e será a forma como outras empresas participantes da maratona identificarão o sistema da sua empresa.
-- System keyword - "codinome" que será associado ao sistema/produto em cadastro. Trata-se da combinação do campo System Type e o Acrônimo informado nos da organização.
+- System keyword - "codinome" que será associado ao sistema/produto em cadastro. Trata-se da combinação do campo System Type e o acrônimo informado nos dados da organização.
 
 - Version - campo opcional que permite informar a versão do sistema/produto em cadastro.
 
@@ -155,7 +155,9 @@ Se este for o caso, pressione este botão para que o sistema Gazelle faça a sug
 
 ### IMPORTANTE
 
-** Para a Maratona de Conectividade do PROADI-SUS HAOC considere as seguintes combinações de perfis/atores/opções:**
+> Após o período de registro, o Gerente Técnico do IHE analisará as combinações de perfil/ator/opção escolhidas, podendo, eventualmente, acrescentar ou remover alguma combinação em função da análise do conjunto completo de testes para a maratona.
+
+> Para a Maratona de Conectividade do PROADI-SUS HAOC considere as seguintes combinações de perfis/atores/opções:**
 
 - **_Para sistemas consumidores e fornecedores de documentos_**
 
@@ -209,6 +211,3 @@ PDQV3 - Patient Demographic Query HL7 V3	|PDS - Patient Demographics Supplier	|C
 PDQV3 - Patient Demographic Query HL7 V3	|PDS - Patient Demographics Supplier	|PEDIATRIC_DEMOG - Pediatric Demographics
 PIXV3 - Patient Identifier Cross-Reference HL7 V3	|PAT_IDENTITY_X_REF_MGR - Patient Identity Cross-reference Manager	|NONE - None
 PIXV3 - Patient Identifier Cross-Reference HL7 V3	|PAT_IDENTITY_X_REF_MGR - Patient Identity Cross-reference Manager	|PEDIATRIC_DEMOG - Pediatric Demographics
-
-> IMPORTANTE: Após o período de registro, o Gerente Técnico do IHE analisará as combinações de perfil/ator/opção escolhidas, podendo, eventualmente, acrescentar ou remover alguma combinação em função da análise de todas as escolhas feitas para a maratona.
-
