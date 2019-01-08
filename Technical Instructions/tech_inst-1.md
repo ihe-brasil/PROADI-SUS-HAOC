@@ -18,6 +18,8 @@ Na sequência, preencha os dados para o novo usuário. No campo nome da organiza
 
 ![](./media/image3.png)
 
+- Organization Keyword: acrônomo para a organização em cadastro. Este acrônomo será importante durante o cadastro de sistemas pois fará parte do "codinome" dos sistemas que serão cadastrados para esta organização. 
+
 ![](./media/image2.png)
 
 Concluindo o cadastro, o Gazelle enviará uma confirmação para o e-mail informado.
@@ -26,8 +28,7 @@ Concluindo o cadastro, o Gazelle enviará uma confirmação para o e-mail inform
 
 Abra o software de e-mail e clique no link recebido para realizar a confirmação. Retorne ao sistema Gazelle e faça login com a nova conta de usuário criada. 
 
-O Gazelle fará login automático para a seção de testes
-“Connectathon do IHE USA”. Clique em “Switch”, no canto superior direito, para selecionar a seção de testes correta.
+O Gazelle fará login automático para a seção de testes “Connectathon do IHE USA”. Clique em “Switch”, no canto superior direito, para selecionar a seção de testes correta.
 
 ![](./media/image5.png)
 
@@ -35,8 +36,7 @@ Verifique a lista de seções de testes e selecione a seção “IHE BRAZIL PROA
 
 ![](./media/image6.png)
 
-Após clicar na seção de testes correta, O sistema Gazelle
-automaticamente irá logar nesta seção. Observe no canto superior direito da tela se a seção de testes foi devidamente selecionada e se o logo do IHE Brasil aparece no canto superior esquerdo.
+Após clicar na seção de testes correta, O sistema Gazelle automaticamente irá logar nesta seção. Observe no canto superior direito da tela se a seção de testes foi devidamente selecionada e se o logo do IHE Brasil aparece no canto superior esquerdo.
 
 ![](./media/image7.png)
 
@@ -46,7 +46,7 @@ automaticamente irá logar nesta seção. Observe no canto superior direito da t
 
 Um "Contato" é uma pessoa em sua organização que irá interagir com os organizadores da Maratona de Conectividade durante a preparação e execução de uma sessão de teste. Um "contato" pode ou não, ter uma conta de "usuário" no Gazelle.
 
-Para inserir/atualizar informações de contato no Gazelle utilize o menu Registration -&gt; Manage Contacts.
+Para inserir/atualizar informações de contatos no Gazelle utilize o menu Registration -&gt; Manage Contacts.
 
 ![](./media/image8.png)
 
@@ -70,7 +70,7 @@ Importante lembrar que uma organização deve identificar:
 
 *Conceitos:*
 
-Tipos de papéis de um usuário:
+Papéis de um usuário:
 
 - “Vendor” (usuário padrão): pode gerenciar os testes e configurações para os sistemas de uma organização.
 
@@ -90,7 +90,7 @@ Informe os dados solicitados para os novos usuários, e clique em “Save” ao 
 
 No Gazelle Test Management, o termo "sistema" refere-se a um conjunto de funcionalidades de aplicações expressas em termos de perfis, atores e opções do IHE. Uma organização pode registrar um ou mais sistemas para uma sessão de teste.
 
-O "sistema" participa da sessão de teste interoperando com "sistemas" pares de outras organizações.
+O "sistema" participa da sessão de teste para interoperar com "sistemas" pares de outras organizações.
 
 O registro destes sistemas no Gazelle é uma etapa muito importante pois os perfis, atores e opções selecionados orientam muito do que acontece durante uma sessão de teste, por exemplo:
 
@@ -110,8 +110,16 @@ Clique em “Add a System” para adicionar um novo sistema para a organização
 
 ![](./media/image14.png)
 
-Observe o campo “System Type” e selecione a opção que melhor categoriza o sistema da organização (os tipos disponíveis as vezes não são muito claros… use
-o bom senso para a escolha).
+- Organization Keyword - Acrônimo da organização proprietária do sistema.
+- System/Product Name - nome atribuido ao sistema. Como a organização se refere ao sistema. 
+- System type - categoria genérica do sistema, por exemplo: PACS, EHR, XDS.b_REP, etc. 
+    - Nota 1: as categorias são amplas e não existe resposta correta ou errada para este campo. Utilize o bom senso para realizar esta categorização.
+    - Nota 2: a categoria escolhida fará parte do "codinome" do seu sistema, e será a forma como outras empresas participantes da maratona identificarão o sistema da sua empresa.
+- System keyword - "codinome" que será associado ao sistema/produto em cadastro. Trata-se da combinação do campo System Type e o Acrônimo informado nos da organização.
+
+- Version - campo opcional que permite informar a versão do sistema/produto em cadastro.
+
+Owner - este é o usuário técnico que será responsável por gerenciar o sistema durante a preparação e realização da semana de maratona de testes.
 
 ![](./media/image15.png)
 
@@ -137,7 +145,17 @@ A cada seleção de perfil, ator e opção, clique no botão “Add this IHE imp
 
 Repita este procedimento até que todos os perfis/atores e opções estejam devidamente cadastrados para o sistema em questão.
 
-> IMPORTANTE: Para a Maratona de Conectividade do PROADI-SUS HAOC considere as seguintes combinações de perfis/atores/opções:
+Dependendo do perfil selecionado, pode aparecer um botão laranja chamado “Missing dependencies” indicando que existe alguma dependência identificada.
+
+![](./media/image19.png)
+
+Se este for o caso, pressione este botão para que o sistema Gazelle faça a sugestão dos perfis/atores que precisam ser analisados para solucionar a dependência. 
+
+----
+
+### IMPORTANTE
+
+** Para a Maratona de Conectividade do PROADI-SUS HAOC considere as seguintes combinações de perfis/atores/opções:**
 
 - **_Para sistemas consumidores e fornecedores de documentos_**
 
@@ -194,8 +212,3 @@ PIXV3 - Patient Identifier Cross-Reference HL7 V3	|PAT_IDENTITY_X_REF_MGR - Pati
 
 > IMPORTANTE: Após o período de registro, o Gerente Técnico do IHE analisará as combinações de perfil/ator/opção escolhidas, podendo, eventualmente, acrescentar ou remover alguma combinação em função da análise de todas as escolhas feitas para a maratona.
 
-Dependendo do perfil selecionado, pode aparecer um botão laranja “Missing dependencies” mostrando que existe alguma dependência identificada.
-
-![](./media/image19.png)
-
-Se este for o caso, pressione este botão para que o sistema Gazelle faça a sugestão dos perfis/atores que precisam ser analisados para solucionar a dependência. 
