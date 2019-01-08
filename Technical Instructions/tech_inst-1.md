@@ -181,33 +181,3 @@ PDQV3 - Patient Demographic Query HL7 V3|PDC - Patient Demographics Consumer|PED
 PIXV3 - Patient Identifier Cross-Reference HL7 V3 |	PAT_IDENTITY\_CONSUMER - Patient Identifier Cross-reference Consumer |	NONE - None
 PIXV3 - Patient Identifier Cross-Reference HL7 V3 |	PAT_IDENTITY\_SRC - Patient Identity Source	| NONE - None
 PIXV3 - Patient Identifier Cross-Reference HL7 V3 | PAT_IDENTITY\_SRC - Patient Identity Source	| PEDIATRIC_DEMOG - Pediatric Demographics
-
-- **_Para Registro de Documentos_**  
-
-Integration profile |	Actor |	Integration Profile Option    
---------------------|---------|----------------------------    
-ATNA - Audit Trail and Node Authentication |SN - Secure Node	|NONE - None
-CT - Consistent Time	|TIME_CLIENT - Time Client	|NONE - None  
-XDS.b - Cross-Enterprise Document Sharing	|DOC_REGISTRY - Document Registry	| NONE - None  
-XDS.b - Cross-Enterprise Document Sharing	|DOC_REGISTRY - Document Registry	|PAT_IDENTITY_FEED_HL7V3 - Patient Identity Feed (HL7 V3)  
-
-- **_Para Repositório de Documentos_**
-
-Integration profile |	Actor |	Integration Profile Option  
---------------------|---------|----------------------------
-ATNA - Audit Trail and Node Authentication	|ARR - Audit Record Repository	|NONE - None
-ATNA - Audit Trail and Node Authentication	|SA - Secure Application	|NONE - None
-CT - Consistent Time	|TIME_CLIENT - Time Client	NONE - None
-XDS.b - Cross-Enterprise Document Sharing	|DOC_REPOSITORY - Document Repository |NONE - None
-
-- **_Para PIXv3 Manager e PDQv3 Supplier_**
-
-Integration profile |	Actor |	Integration Profile Option  
---------------------|---------|----------------------------
-ATNA - Audit Trail and Node Authentication	|SA - Secure Application	|NONE - None
-CT - Consistent Time	|TIME_CLIENT - Time Client	|NONE - None
-PDQV3 - Patient Demographic Query HL7 V3	|PDS - Patient Demographics Supplier	|NONE - None
-PDQV3 - Patient Demographic Query HL7 V3	|PDS - Patient Demographics Supplier	|CONTINUATION - Continuation Option
-PDQV3 - Patient Demographic Query HL7 V3	|PDS - Patient Demographics Supplier	|PEDIATRIC_DEMOG - Pediatric Demographics
-PIXV3 - Patient Identifier Cross-Reference HL7 V3	|PAT_IDENTITY_X_REF_MGR - Patient Identity Cross-reference Manager	|NONE - None
-PIXV3 - Patient Identifier Cross-Reference HL7 V3	|PAT_IDENTITY_X_REF_MGR - Patient Identity Cross-reference Manager	|PEDIATRIC_DEMOG - Pediatric Demographics
