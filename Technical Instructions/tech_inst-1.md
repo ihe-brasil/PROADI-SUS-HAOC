@@ -104,6 +104,61 @@ O registro destes sistemas no Gazelle é uma etapa muito importante pois os perf
 
 IMPORTANTE: antes de proceder com o cadastro no sistema Gazelle, faça uma leitura minuciosa do Framework Técnico do IHE correspondente aos perfis que serão testados.
 
+Para a Maratona de Conectividade do PROADI-SUS HAOC considere as seguintes combinações de perfis/atores/opções:
+
+- **_Para sistemas consumidores e fornecedores de documentos_**
+
+Integration profile |	Actor |	Integration Profile Option  
+--------------------|---------|----------------------------
+ATNA - Audit Trail and Node Authentication	| SA - Secure Application	| NONE - None  
+CT - Consistent Time| TIME_CLIENT - Time Client|	NONE - None  
+XDS.b - Cross-Enterprise Document Sharing |	DOC_CONSUMER - Document Consumer | NONE - None
+XDS.b - Cross-Enterprise Document Sharing |	DOC_SOURCE - Document Source | NONE - None
+XDS.b - Cross-Enterprise Document Sharing |	DOC_SOURCE - Document Source |	DOC_REPLACE - Document Replacement
+
+- **_Para sistemas fornecedores e consumidores de identificadores de pacientes_**
+
+Integration profile |	Actor |	Integration Profile Option  
+--------------------|---------|----------------------------  
+ATNA - Audit Trail and Node Authentication	| SA - Secure Application	| NONE - None  
+CT - Consistent Time| TIME_CLIENT - Time Client|	NONE - None  
+PDQV3 - Patient Demographic Query HL7 V3|PDC - Patient Demographics Consumer|NONE - None
+PDQV3 - Patient Demographic Query HL7 V3|PDC - Patient Demographics Consumer| CONTINUATION - Continuation Option
+PDQV3 - Patient Demographic Query HL7 V3|PDC - Patient Demographics Consumer|PEDIATRIC_DEMOG - Pediatric Demographics
+PIXV3 - Patient Identifier Cross-Reference HL7 V3 |	PAT_IDENTITY\_CONSUMER - Patient Identifier Cross-reference Consumer |	NONE - None
+PIXV3 - Patient Identifier Cross-Reference HL7 V3 |	PAT_IDENTITY\_SRC - Patient Identity Source	| NONE - None
+PIXV3 - Patient Identifier Cross-Reference HL7 V3 | PAT_IDENTITY\_SRC - Patient Identity Source	| PEDIATRIC_DEMOG - Pediatric Demographics
+
+- **_Para Registro de Documentos_**  
+
+Integration profile |	Actor |	Integration Profile Option    
+--------------------|---------|----------------------------    
+ATNA - Audit Trail and Node Authentication |SN - Secure Node	|NONE - None
+CT - Consistent Time	|TIME_CLIENT - Time Client	|NONE - None  
+XDS.b - Cross-Enterprise Document Sharing	|DOC_REGISTRY - Document Registry	| NONE - None  
+XDS.b - Cross-Enterprise Document Sharing	|DOC_REGISTRY - Document Registry	|PAT_IDENTITY_FEED_HL7V3 - Patient Identity Feed (HL7 V3)  
+
+- **_Para Repositório de Documentos_**
+
+Integration profile |	Actor |	Integration Profile Option  
+--------------------|---------|----------------------------
+ATNA - Audit Trail and Node Authentication	|ARR - Audit Record Repository	|NONE - None
+ATNA - Audit Trail and Node Authentication	|SA - Secure Application	|NONE - None
+CT - Consistent Time	|TIME_CLIENT - Time Client	NONE - None
+XDS.b - Cross-Enterprise Document Sharing	|DOC_REPOSITORY - Document Repository |NONE - None
+
+- **_Para PIXv3 Manager e PDQv3 Supplier_**
+
+Integration profile |	Actor |	Integration Profile Option  
+--------------------|---------|----------------------------
+ATNA - Audit Trail and Node Authentication	|SA - Secure Application	|NONE - None
+CT - Consistent Time	|TIME_CLIENT - Time Client	|NONE - None
+PDQV3 - Patient Demographic Query HL7 V3	|PDS - Patient Demographics Supplier	|NONE - None
+PDQV3 - Patient Demographic Query HL7 V3	|PDS - Patient Demographics Supplier	|CONTINUATION - Continuation Option
+PDQV3 - Patient Demographic Query HL7 V3	|PDS - Patient Demographics Supplier	|PEDIATRIC_DEMOG - Pediatric Demographics
+PIXV3 - Patient Identifier Cross-Reference HL7 V3	|PAT_IDENTITY_X_REF_MGR - Patient Identity Cross-reference Manager	|NONE - None
+PIXV3 - Patient Identifier Cross-Reference HL7 V3	|PAT_IDENTITY_X_REF_MGR - Patient Identity Cross-reference Manager	|PEDIATRIC_DEMOG - Pediatric Demographics
+
 Utilize o menu Registration -&gt; Manage Systems para iniciar a função de cadastro de sistemas.
 
 ![](./media/image13.png)
