@@ -18,9 +18,9 @@ Na sequência, preencha os dados para o novo usuário. No campo nome da organiza
 
 ![](./media/image3.png)
 
-- Organization Keyword: acrônomo para a organização em cadastro. Este acrônomo será importante durante o cadastro de sistemas pois fará parte do "codinome" dos sistemas que serão cadastrados para esta organização. 
-
 ![](./media/image2.png)
+
+- Organization Keyword: acrônomo para a organização em cadastro. Este acrônomo será importante durante o cadastro de sistemas pois fará parte do "codinome" dos sistemas que serão cadastrados para esta organização. 
 
 Concluindo o cadastro, o Gazelle enviará uma confirmação para o e-mail informado.
 
