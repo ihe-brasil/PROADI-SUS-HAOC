@@ -20,7 +20,7 @@ Na sequência, preencha os dados para o novo usuário. No campo nome da organiza
 
 ![](./media/image2.png)
 
-- Organization Keyword: acrônomo para a organização em cadastro. Este acrônomo será importante durante o cadastro de sistemas pois fará parte do "codinome" dos sistemas que serão cadastrados para esta organização. 
+- Organization Keyword: acrônimo para a organização em cadastro. Este acrônimo será importante durante o cadastro de sistemas pois fará parte do "codinome" dos sistemas que serão cadastrados para esta organização. 
 
 Concluindo o cadastro, o Gazelle enviará uma confirmação para o e-mail informado.
 
@@ -110,7 +110,7 @@ Clique em “Add a System” para adicionar um novo sistema para a organização
 
 ![](./media/image14.png)
 
-- Organization Keyword - Acrônimo da organização proprietária do sistema.
+- Organization Keyword - acrônimo da organização proprietária do sistema, informado durante o cadastro da organização.
 - System/Product Name - nome atribuido ao sistema. Como a organização se refere ao sistema. 
 - System type - categoria genérica do sistema, por exemplo: PACS, EHR, XDS.b_REP, etc. 
     - Nota 1: as categorias são amplas e não existe resposta correta ou errada para este campo. Utilize o bom senso para realizar esta categorização.
@@ -119,7 +119,7 @@ Clique em “Add a System” para adicionar um novo sistema para a organização
 
 - Version - campo opcional que permite informar a versão do sistema/produto em cadastro.
 
-Owner - este é o usuário técnico que será responsável por gerenciar o sistema durante a preparação e realização da semana de maratona de testes.
+Owner - usuário técnico responsável por gerenciar o sistema durante a preparação e realização da semana de maratona de testes.
 
 ![](./media/image15.png)
 
@@ -133,9 +133,9 @@ Clique no botão verde “Add IHE implementations” para que a tela de seleçã
 
 ![](./media/image17.png)
 
-Observe que o campo Integration Profile irá apenas apresentar os perfis disponíveis para teste na Maratona de Conectividade. 
+Observe que o campo "Integration Profile" irá apresentar apenas os perfis disponíveis para teste na Maratona de Conectividade. 
 
-Neste momento, será necessário selecionar todas as combinações de perfis, atores e opções que representam os testes que a organização pretende realizar para o sistema em questão.
+Utilize os botôes e opções disponíveis para selecionar todas as combinações de perfis, atores e opções que representam os testes que a organização pretende realizar para o sistema em questão.
 
 Para facilitar, selecione o perfil de integração e o ator em análise. Por exemplo, Perfil: "PDQv3 Patient Demographics Query" e ator: "PDC - Patient Demographics Consumer". Na sequência, selecione a combinação (ou combinações) dentre as alternativas apresentadas.
 
@@ -143,13 +143,13 @@ Para facilitar, selecione o perfil de integração e o ator em análise. Por exe
 
 A cada seleção de perfil, ator e opção, clique no botão “Add this IHE implementation to this system” para que a combinação perfil/ator/opção selecionada seja incorporado para o sistema.
 
-Repita este procedimento até que todos os perfis/atores e opções estejam devidamente cadastrados para o sistema em questão.
+Repita este procedimento até que todos os perfis/atores/opções estejam devidamente cadastrados para o sistema em questão.
 
 Dependendo do perfil selecionado, pode aparecer um botão laranja chamado “Missing dependencies” indicando que existe alguma dependência identificada.
 
 ![](./media/image19.png)
 
-Se este for o caso, pressione este botão para que o sistema Gazelle faça a sugestão dos perfis/atores que precisam ser analisados para solucionar a dependência. 
+Se este for o caso, pressione este botão para que o sistema Gazelle faça a sugestão dos perfis/atores que precisam ser analisados/adicionados para solucionar a dependência. 
 
 ----
 
