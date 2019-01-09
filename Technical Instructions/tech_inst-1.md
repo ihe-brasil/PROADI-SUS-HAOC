@@ -169,7 +169,7 @@ XDS.b - Cross-Enterprise Document Sharing |	DOC_CONSUMER - Document Consumer | N
 XDS.b - Cross-Enterprise Document Sharing |	DOC_SOURCE - Document Source | NONE - None
 XDS.b - Cross-Enterprise Document Sharing |	DOC_SOURCE - Document Source |	DOC_REPLACE - Document Replacement
 
-- **_Para sistemas fornecedores e consumidores de identificadores de pacientes_**
+- **_Para sistemas consumidores e fontes de identificadores de pacientes_**
 
 Integration profile |	Actor |	Integration Profile Option  
 --------------------|---------|----------------------------  
