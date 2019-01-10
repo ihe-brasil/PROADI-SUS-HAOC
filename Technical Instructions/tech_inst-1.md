@@ -145,12 +145,6 @@ A cada seleção de perfil, ator e opção, clique no botão “Add this IHE imp
 
 Repita este procedimento até que todos os perfis/atores/opções estejam devidamente cadastrados para o sistema em questão.
 
-Dependendo do perfil selecionado, pode aparecer um botão laranja chamado “Missing dependencies” indicando que existe alguma dependência identificada.
-
-![](./media/image19.png)
-
-Se este for o caso, pressione este botão para que o sistema Gazelle faça a sugestão dos perfis/atores que precisam ser analisados/adicionados para solucionar a dependência. 
-
 ----
 
 ### IMPORTANTE
@@ -181,3 +175,22 @@ PDQV3 - Patient Demographic Query HL7 V3|PDC - Patient Demographics Consumer|PED
 PIXV3 - Patient Identifier Cross-Reference HL7 V3 |	PAT_IDENTITY\_CONSUMER - Patient Identifier Cross-reference Consumer |	NONE - None
 PIXV3 - Patient Identifier Cross-Reference HL7 V3 |	PAT_IDENTITY\_SRC - Patient Identity Source	| NONE - None
 PIXV3 - Patient Identifier Cross-Reference HL7 V3 | PAT_IDENTITY\_SRC - Patient Identity Source	| PEDIATRIC_DEMOG - Pediatric Demographics
+
+----
+
+Dependendo do perfil selecionado, pode aparecer um botão laranja chamado “Missing dependencies” indicando que existe alguma dependência identificada.
+
+![](./media/image19.png)
+
+Se este for o caso, pressione este botão para que o sistema Gazelle faça a sugestão dos perfis/atores que precisam ser analisados/adicionados para solucionar a dependência. 
+
+> IMPORTANTE: Somente inclua informações nos panels "System Summary" e "Profile/Actors". Os demais panels não devem ser alterados.
+
+![](./media/image20.png)
+
+> IMPORTANTE: Não altere dados para os campos "Requested testing type", "Testing type reviewed" e "Testing type". 
+
+Ao clicar nas combinações selecionadas, nos campos "integration profile", "Actor" ou "Integration Profile Option" o Gazelle apresentará informações sobre o item selecionado. Por exemplo, ao clicar no ator "PDQv3 - Patient Demographics Query HL7 v3", o Gazelle abrirá uma janela com informações pertinentes a este perfil.
+
+![](./media/image21.png)
+
