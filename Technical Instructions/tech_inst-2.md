@@ -1,8 +1,9 @@
-### O que é o XDS ToolKit? 
+# Considerações sobre instalação da ferramenta NIST XDS ToolKit
+
 
 O XDS Toolkit é uma coleção de ferramentas de teste focadas no conjunto de perfis para compartilhamento de documentos publicada pelo Integrating the Healthcare Enterprise (IHE). O Toolkit foi desenvolvido pelo Instituto Nacional de Padrões e Tecnologia (NIST) dos Estados Unidos. Trata-se de software de código aberto, de domínio público, não coberto por direitos autorais.
 
-[Download e Instalação](https://github.com/usnistgov/iheos-toolkit2/wiki/installing)
+Informações sobre [Download e Instalação](https://github.com/usnistgov/iheos-toolkit2/wiki/installing)
 
 
 IMPORTANTE: Configuração de cache externo
