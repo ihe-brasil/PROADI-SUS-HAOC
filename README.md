@@ -47,7 +47,7 @@ Ator: Patient Identity Source - [testes preliminares](Technical%20Instructions/t
 
 [Schemas & WSDLs](./IHE%20schemas%20&%20wsdls) e exemplos de mensagens [PDQv3](./IHE%20messages%20examples/PDQV3) e [PIXv3](./IHE%20messages%20examples/PIXV3) 
 
-Exemplo ilustrativo de mensagem [ITI-44 Patient Identity Feed "Add"](Technical%20Instructions/media/image23.png) com referências para documentação de wrappers HL7 v3.
+Exemplo ilustrativo de mensagem [ITI-44 Patient Identity Feed "Add"](Technical%20Instructions/media/image23.png) com referências para wrappers HL7 v3.
 
 Forum técnico internacional de desenvolvedores [PIXv3/PDQv3](https://groups.google.com/forum/#!forum/ihe_pix_pdq_testing)
 
