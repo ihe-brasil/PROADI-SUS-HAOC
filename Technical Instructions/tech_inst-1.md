@@ -194,3 +194,6 @@ Ao clicar nas combinações selecionadas, nos campos "integration profile", "Act
 
 ![](./media/image21.png)
 
+>IMPORTANTE: ao término desta atividade o sistema aparecerá na tela de sistemas com o Status "In progress". Após a revisão do Gerente Técnico do IHe este status será alterado para "Completed".
+
+![](./media/image22.png)
