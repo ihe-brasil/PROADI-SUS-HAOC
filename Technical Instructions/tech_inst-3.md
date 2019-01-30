@@ -33,7 +33,7 @@ Verify that the XDS.b Document Source can submit a single document via Provide a
 
 5. Repeat Step #3 for creating a "Document Repository" simulator. Give it a different shortname.
 
-6. Double click on the new Repository simulator and configure the Registry endpoint (Step #4)  
+6. Double click on the new Repository simulator, configure the Registry endpoint (that you have taken note on Step #4) and click on "Save".
 
 ![](./media/image3-06.png)
 
@@ -73,7 +73,7 @@ Verify that the XDS.b Document Source can submit a single document via Provide a
 
 **Test Procedure**
 
-Repeat all steps of test 12049. However, perform Steps 3 and 5 over TLS.
+Repeat all steps of test 12049. However, perform Step #9 over TLS.
 
 ## Tests 11936/12363
 FindDocuments Stored Query and generic instructions for testing Document Consumer implementations of Stored Queries.
@@ -86,13 +86,17 @@ FindDocuments Stored Query and generic instructions for testing Document Consume
 
 **Test Procedure**  
 
-a Use same patient ID used for Test 12049.  
+1. Use same patient ID used for Test 12049.  
 
-b. Use your SUT (document consumer) to submit a “FindDocument” Stored Query retrieving all documents for this patient ID.  
+2. Double click on the new Registry simulator (created in the Step 3# of test 12049) and take note of the Stored Query endpoint.
 
-c. Go to the “Simulators” menu option. Select your registry simulator, click on the “log” action (similar to step 6 of test 12049).  
+3. Use your System Under Test (actor: document consumer) to submit a “FindDocument” Stored Query retrieving all documents for the patient ID against the Store Query endpoint (Step #2).
 
-d. Select the “message” you have just generated. Take a screenshot of this screeen and click on the “Download message” option (similar to step 7 of test 12049).  
+![](./media/image3-12.png) 
 
-e. Post the generated zip file and screenshot to Gazelle Action “return log file”.  
+4. Go to the “Simulators” menu option. Select your registry simulator, click on the “log” action (similar to step 10 of test 12049).  
+
+5. Select the “message” you have just generated. Take a screenshot of this screeen and click on the “Download message” option (similar to step 11 of test 12049).  
+
+6. Post the generated zip file and screenshot to Gazelle Action “return log file”.  
 
