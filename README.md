@@ -5,7 +5,7 @@
 
 ### Testes Pré-Connectathon
 
-** Prazo para entrega de resultados: 15/3/2019**
+*Prazo para entrega de resultados: 15/3/2019*
 
 - XDS.b - Cross-Enterprise Document Sharing
 
