@@ -10,7 +10,7 @@ FindDocuments Stored Query and generic instructions for testing Document Consume
 
 **Test Procedure**  
 
-1. Use same patient ID used for Test 12049.  
+1. Use same patient ID used for Test #5001.  
 
 2. Double click on the new Registry simulator (created in the Step 3# of test #5001) and take note of the Stored Query endpoint.
 
