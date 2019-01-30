@@ -43,17 +43,20 @@ Verify that the XDS.b Document Source can submit a single document via Provide a
 
 ![](./media/image3-08.png)
 
-8. Go to "Simulators" menu option. Open the Repository simulator you created in the Step #5 and take note of the Repository endpoints. Use your System Under Test (actor: document source) to submit a Submission Set containing a single Document using the Provide and Register Document Set-b transaction against the Pnr endpoint (or Pnr TLS endpoint).   
+8. Go to "Simulators" menu option. Open the Repository simulator you created in the Step #5 and take note of the Repository endpoints. 
+
+9. Use your System Under Test (actor: document source) to submit a Submission Set containing a single Document using the Provide and Register Document Set-b transaction against the Pnr endpoint (or Pnr TLS endpoint).   
 
 ![](./media/image3-09.png)
 
-9. Go to the “Simulators” menu option. Open the Repository simulator and click on the “log” action  
+10. Go to the “Simulators” menu option. Open the Repository simulator and click on the “log” action  
 ![](./media/image3-10.png)
 
-g. Select the “message” you have just generated. Take a screenshot of this screeen and click on the “Download message” option.
+11. Select the “message” you have just generated. Take a screenshot of this screeen and click on the “Download message” option.
 
 ![](./media/image3-11.png)  
-h. Post the generated zip file and screenshot to Gazelle Action “return log file”.  
+
+12. Post the generated zip file and screenshot to Gazelle Action “return log file”.  
 
 
 ## Test 12046
