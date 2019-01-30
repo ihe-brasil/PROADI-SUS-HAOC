@@ -56,6 +56,8 @@ Referências:
 
 [Projeto SOAPUI](./SOAPUI%20Projects/Gazelle-Patient-Manager-examples-soapui-project.xml) com exemplos de PIXv/PDQv3 baseados na utilização da ferramenta [Gazelle Patient Manager](https://gazelle.ihe.net/PatientManager/home.seam) 
 
+[Projeto SOAPUI](./SOAPUI%20Projects/NIST-PIXPDQ-Examples-soapui-project.xml) com exemplos de PIXv/PDQv3 baseados na utilização da ferramenta [NIST PIX PDQ Tool](https://pixpdqtests.nist.gov/pixpdqtool/) 
+
 [Schemas & WSDLs](./IHE%20schemas%20&%20wsdls) e exemplos de mensagens [PDQv3](./IHE%20messages%20examples/PDQV3) e [PIXv3](./IHE%20messages%20examples/PIXV3) 
 
 Exemplo ilustrativo de mensagem [ITI-44 Patient Identity Feed "Add"](Technical%20Instructions/media/image23.png) com referências para wrappers HL7 v3.
