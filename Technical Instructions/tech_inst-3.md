@@ -50,9 +50,10 @@ Verify that the XDS.b Document Source can submit a single document via Provide a
 ![](./media/image3-09.png)
 
 10. Go to the “Simulators” menu option. Open the Repository simulator and click on the “log” action  
+
 ![](./media/image3-10.png)
 
-11. Select the “message” you have just generated. Take a screenshot of this screeen and click on the “Download message” option.
+11. Select the “message” you have just generated. Take a screenshot and click on the “Download message” option.
 
 ![](./media/image3-11.png)  
 
