@@ -13,22 +13,46 @@ Verify that the XDS.b Document Source can submit a single document via Provide a
 
 **Test Procedure**  
 
-a. Access NIST XDS Toolkit  
+1. Access NIST XDS Toolkit and enter with the admin password (default: "easy")
 
-b. Select a proper test session and the default environment codes  
+![](./media/image3-01.png)
 
-c. Go to the “Simulators” menu option. Configure a new Registry and new Repository simulators. Open the Repository configuration and inform the Registry endpoint  
+2. Create a test session or select a proper one. Check if the "default" environment codes is being used.  
 
-d. Go to the “Manage Patient IDs” menu option. Select one patient ID, select your register simulator and click on “Run” bottom to send a patient feed transaction to your register simulator  
+![](./media/image3-02.png)
 
-e. Use your SUT (document source) to submit a Submission Set containing a single Document using the Provide and Register Document Set-b transaction  
+3. Go to the “Simulators” menu option. Select "Document Registry" for actor type. Enter with a shortname for your simulator, and click on "Create Actor Simulator" bottom. 
 
-f. Go to the “Simulators” menu option. Select your repository simulator, click on the “log” action  
-![](./media/image3-1.png)
+![](./media/image3-03.png)
+
+4. Double click on the new Register simulator and take note of the register endpoint.
+
+![](./media/image3-04.png)
+
+![](./media/image3-05.png)
+
+5. Repeat Step #3 for creating a "Document Repository" simulator. Give it a different shortname.
+
+6. Double click on the new Repository simulator and configure the Registry endpoint (Step #4)  
+
+![](./media/image3-06.png)
+
+![](./media/image3-07.png)
+
+7. Go to the “Manage Patient IDs” menu option. Select one patient ID, select your register simulator and click on “Run” bottom to send a patient feed transaction to your register simulator  
+
+![](./media/image3-08.png)
+
+8. Go to "Simulators" menu option. Open the Repository simulator you created in the Step #5 and take note of the Repository endpoints. Use your System Under Test (actor: document source) to submit a Submission Set containing a single Document using the Provide and Register Document Set-b transaction against the Pnr endpoint (or Pnr TLS endpoint).   
+
+![](./media/image3-09.png)
+
+9. Go to the “Simulators” menu option. Open the Repository simulator and click on the “log” action  
+![](./media/image3-10.png)
 
 g. Select the “message” you have just generated. Take a screenshot of this screeen and click on the “Download message” option.
 
-![](./media/image3-2.png)  
+![](./media/image3-11.png)  
 h. Post the generated zip file and screenshot to Gazelle Action “return log file”.  
 
 
