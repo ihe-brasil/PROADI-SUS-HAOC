@@ -9,9 +9,11 @@
 
 - XDS.b - Cross-Enterprise Document Sharing
 
-       - ator: Document Source [testes #5001 e #5002](Technical%20Instructions/tech_inst-3.md)
+ator: Document Source [testes #5001 e #5002](Technical%20Instructions/tech_inst-3.md)
 
-       - ator: Document Consumer [teste #5003](Technical%20Instructions/tech_inst-3-1.md)  
+ator: Document Source [testes #5001 e #5002](Technical%20Instructions/tech_inst-4.md)
+
+ator: Document Consumer [teste #5003](Technical%20Instructions/tech_inst-3-1.md)  
 
 - PDQv3 ator: Patient Demographics Consumer - [testes #6001 e #6002](Technical%20Instructions/tech_inst-4.md)
 
