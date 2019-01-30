@@ -3,13 +3,18 @@
 
 -----
 
-### Período de testes Pré-Connectathon: 1/2/2019 a 18/3/2019
+### Testes Pré-Connectathon
 
-- PDQv3 ator: Patient Demographics Consumer - [testes Pré-Connectathon](Technical%20Instructions/tech_inst-4.md)
+** Prazo para entrega de resultados: 15/3/2019**
 
-- PIXv3 ator: Patient Identity Source - [testes Pré-Connectathon](Technical%20Instructions/tech_inst-5.md)
+- XDS.b - Cross-Enterprise Document Sharing
 
-- XDS.b atores: Document Source e Document Consumer - [testes Pré-Connectathon](Technical%20Instructions/tech_inst-3.md)
+       - ator: Document Source [testes #5001 e #5002](Technical%20Instructions/tech_inst-3.md)
+       - ator: Document Source [teste #5003](Technical%20Instructions/tech_inst-3-1.md)
+
+- PDQv3 ator: Patient Demographics Consumer - [testes #6001 e #6002](Technical%20Instructions/tech_inst-4.md)
+
+- PIXv3 ator: Patient Identity Source - [testes #6003](Technical%20Instructions/tech_inst-5.md)
 
 - Instruções para acesso aos [testes Pré-Connectathon](Technical%20Instructions/tech_inst-6.md) disponíveis no Gazelle
 
