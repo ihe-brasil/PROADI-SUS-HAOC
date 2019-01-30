@@ -2,6 +2,12 @@
 
 
 -----
+
+### Período de testes Pré-Connectathon: 1/2/2019 a 18/3/2019
+
+- Instruções para acesso aos [testes Pré-Connectathon](Technical%20Instructions/tech_inst-6.md)
+
+-----
 ### Período de Registro: 7/1/2019 a 20/1/2019
 
 
