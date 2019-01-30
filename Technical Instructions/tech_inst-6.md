@@ -17,7 +17,7 @@ Clique no número de testes a realizar (number of tests to do) para visualizar a
 
 A coluna "Option" indica se o teste é obrigatório (R) ou opcional (O). Você pode optar também por utilizar o filtro por "Option" e ver apenas os obrigatórios. Clique no perfil/ator/opção para ver a documentação relacionada com estes itens. 
 
-Clique no "globo" para acessar instruções sobre o teste.
+Clique no "globo" para acessar instruções sobre o teste. Em caso de dúvidas sobre a descrição e passos a serem executados, converse com o Gerente Técnico do IHE.
 
 ![](./media/image6-4.png)
 
