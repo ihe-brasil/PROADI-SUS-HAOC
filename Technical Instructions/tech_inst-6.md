@@ -17,7 +17,9 @@
 
 5. A coluna "Option" indica se o teste é obrigatório (R) ou opcional (O). Você pode optar também por utilizar o filtro por "Option" e ver apenas os obrigatórios. Clique no perfil/ator/opção para ver a documentação relacionada com estes itens. 
 
-6. Clique no "globo" para acessar instruções sobre o teste. Em caso de dúvidas sobre a descrição e passos a serem executados, converse com o Gerente Técnico do IHE.
+6. Clique no "globo" para acessar instruções sobre o teste. 
+
+> Em caso de dúvidas sobre a descrição e passos a serem executados, converse com o Gerente Técnico do IHE.
 
 ![](./media/image6-4.png)
 
