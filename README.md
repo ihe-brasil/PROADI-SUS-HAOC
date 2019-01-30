@@ -9,12 +9,12 @@
 
 - XDS.b - Cross-Enterprise Document Sharing
 
-       - ator: Document Source [testes #5001 e #5002](Technical%20Instructions/tech_inst-3.md)
-       - ator: Document Source [teste #5003](Technical%20Instructions/tech_inst-3-1.md)
+       - ator: Document Source [testes #5001 e #5002](Technical%20Instructions/tech_inst-3.md)  
+       - ator: Document Source [teste #5003](Technical%20Instructions/tech_inst-3-1.md)  
 
 - PDQv3 ator: Patient Demographics Consumer - [testes #6001 e #6002](Technical%20Instructions/tech_inst-4.md)
 
-- PIXv3 ator: Patient Identity Source - [testes #6003](Technical%20Instructions/tech_inst-5.md)
+- PIXv3 ator: Patient Identity Source - [teste #6003](Technical%20Instructions/tech_inst-5.md)
 
 - Instruções para acesso aos [testes Pré-Connectathon](Technical%20Instructions/tech_inst-6.md) disponíveis no Gazelle
 
