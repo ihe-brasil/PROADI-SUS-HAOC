@@ -90,9 +90,9 @@ FindDocuments Stored Query and generic instructions for testing Document Consume
 
 2. Double click on the new Registry simulator (created in the Step 3# of test 12049) and take note of the Stored Query endpoint.
 
-3. Use your System Under Test (actor: document consumer) to submit a “FindDocument” Stored Query retrieving all documents for the patient ID against the Store Query endpoint (Step #2).
-
 ![](./media/image3-12.png) 
+
+3. Use your System Under Test (actor: document consumer) to submit a “FindDocument” Stored Query retrieving all documents for the patient ID against the Store Query endpoint (Step #2).
 
 4. Go to the “Simulators” menu option. Select your registry simulator, click on the “log” action (similar to step 10 of test 12049).  
 
