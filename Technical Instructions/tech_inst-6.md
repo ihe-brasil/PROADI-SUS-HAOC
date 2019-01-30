@@ -1,4 +1,4 @@
-### Instrução para acesso aos testes pré-connectathon
+### Instrução para acesso aos testes pré-connectathon disponíveis no sistema Gazelle
 
 
 Acesse o [sistema Gazelle](https://ihe.wustl.edu/gazelle-na/) com o seu usuário
