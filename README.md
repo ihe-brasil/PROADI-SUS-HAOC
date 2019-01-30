@@ -5,7 +5,13 @@
 
 ### Período de testes Pré-Connectathon: 1/2/2019 a 18/3/2019
 
-- Instruções para acesso aos [testes Pré-Connectathon](Technical%20Instructions/tech_inst-6.md)
+- PDQv3 ator: Patient Demographics Consumer - [testes preliminares](Technical%20Instructions/tech_inst-4.md)
+
+- PIXv3 ator: Patient Identity Source - [testes preliminares](Technical%20Instructions/tech_inst-5.md)
+
+- XDS.b atores: Document Source e Document Consumer - [testes preliminares](Technical%20Instructions/tech_inst-3.md)
+
+- Instruções para acesso aos [testes Pré-Connectathon](Technical%20Instructions/tech_inst-6.md) disponíveis no Gazelle
 
 -----
 ### Período de Registro: 7/1/2019 a 20/1/2019
@@ -23,8 +29,6 @@
 
 
 [Considerações sobre o processo de instalação](Technical%20Instructions/tech_inst-2.md) da ferramenta [NIST XDS ToolKit](https://github.com/usnistgov/iheos-toolkit2)
-
-Atores: Document Source e Document Consumer - [testes preliminares](Technical%20Instructions/tech_inst-3.md)
 
 [Projeto SOAPUI](./SOAPUI%20Projects/NIST%20XDS-Toolkit-Examples-soapui-project.xml) com exemplos baseados na utilização da ferramenta NIST XDS ToolKit 
 
@@ -44,10 +48,6 @@ Referências:
 -----
 
 ### Perfis IHE Patient Demographics Query (PDQv3) e Patient Identifier Cross-Referencing (PIXv3)
-
-Ator: Patient Demographics Consumer - [testes preliminares](Technical%20Instructions/tech_inst-4.md)
-
-Ator: Patient Identity Source - [testes preliminares](Technical%20Instructions/tech_inst-5.md)
 
 [Projeto SOAPUI](./SOAPUI%20Projects/Gazelle-Patient-Manager-examples-soapui-project.xml) com exemplos de PIXv/PDQv3 baseados na utilização da ferramenta [Gazelle Patient Manager](https://gazelle.ihe.net/PatientManager/home.seam) 
 

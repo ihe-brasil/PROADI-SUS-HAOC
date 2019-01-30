@@ -1,4 +1,4 @@
-## Test 12049
+## Test #5001
 Submit one document via XDS.b
 
 Verify that the XDS.b Document Source can submit a single document via Provide and Register Document Set-b transaction. 
@@ -60,7 +60,7 @@ Verify that the XDS.b Document Source can submit a single document via Provide a
 12. Post the generated zip file and screenshot to Gazelle Action “return log file”.  
 
 
-## Test 12046
+## Test #5002
 Submit one document via XDS.b over TLS
 
 Verify that the XDS.b Document Source can submit a single document via Provide and Register Document Set-b transaction over TLS. 
@@ -75,7 +75,7 @@ Verify that the XDS.b Document Source can submit a single document via Provide a
 
 Repeat all steps of test 12049. However, perform Step #9 over TLS.
 
-## Tests 11936/12363
+## Test #5003
 FindDocuments Stored Query and generic instructions for testing Document Consumer implementations of Stored Queries.
 
 **References:** ITI TF-2 3.18
