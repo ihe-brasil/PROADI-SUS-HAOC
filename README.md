@@ -15,7 +15,7 @@
 
 - PDQv3 ator: Patient Demographics Consumer - testes [#6001](Technical%20Instructions/tech_inst-4.md) e [#6002](Technical%20Instructions/tech_inst-4-1.md)
 
-- PIXv3 ator: Patient Identity Source - [teste #6003](Technical%20Instructions/tech_inst-5.md)
+- PIXv3 ator: Patient Identity Source - teste [#6003](Technical%20Instructions/tech_inst-5.md)
 
 - Instruções para acesso aos [testes Pré-Connectathon](Technical%20Instructions/tech_inst-6.md) disponíveis no Gazelle
 
