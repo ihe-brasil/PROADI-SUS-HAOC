@@ -13,7 +13,7 @@
 
     ator: Document Consumer teste [#5003](Technical%20Instructions/tech_inst-3-1.md)  
 
-- PDQv3 ator: Patient Demographics Consumer - [testes #6001 e #6002](Technical%20Instructions/tech_inst-4.md)
+- PDQv3 ator: Patient Demographics Consumer - testes [#6001](Technical%20Instructions/tech_inst-4.md) e [#6002](Technical%20Instructions/tech_inst-4-1.md)
 
 - PIXv3 ator: Patient Identity Source - [teste #6003](Technical%20Instructions/tech_inst-5.md)
 
