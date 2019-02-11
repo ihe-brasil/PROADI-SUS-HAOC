@@ -70,6 +70,6 @@ Verify that PDQ Consumer can submit a Patient Demographics Query HL7V3 Continuat
 
 5. Your message should include a LivingSubjectName with given equal to “Jo” as part of the ParameterList class. Also, configure your message to retrieve 10 patients at maximum (“InitialQuantity” with value=10).  See examples on this [SOAPUI project](./SOAPUI%20Projects/Gazelle-Patient-Manager-examples-soapui-project).
 
-6. You can use menu HL7 messages to find the query & response captured by the tool. Similar to what was done in the previous test (PM_PDQ_Query-Patient_Demographics_Consumer).
+6. You can use menu HL7 messages to find the query & response captured by the tool. Similar to what was done in the previous test (Test #6001).
 
 7. Take a screenshot of your application or your database as a proof of receipt of the query response. Retrieve the permanent link to the transaction instance, and paste that as evidence for this test. The screen shot demonstrates that you have successfully processed the received query response(s).
