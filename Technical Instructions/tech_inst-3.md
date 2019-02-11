@@ -63,3 +63,5 @@ You must install Toolkit locally before performing these tests. The XDS Toolkit 
 ![](./media/image3-11.png)  
 
 12. Post the generated zip file and screenshot to Gazelle Action “return log file”.  
+
+13. Change the status of the pre-connectathon test to "Verified by vendor".

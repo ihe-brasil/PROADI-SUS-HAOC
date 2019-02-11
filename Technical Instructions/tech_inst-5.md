@@ -6,7 +6,7 @@ The Patient Identity Source actor must demonstrate 3 capabilities:
 - update a patient with PRPA_IN201302UV02: Patient Registry Record Revised
 - merge with PRPA_IN201304UV02: Patient Registry Duplicates Resolved
 
-The Patient Identity Source needs to have an Assigning Authority assigned to its own system for identifying that source. The IHE Technical Manager will provide an OID to be used as the Assigning Authority for your system. 
+The Patient Identity Source needs to have an Assigning Authority assigned to its own system for identifying that source. Each Patient Identity Source is given a “Patient ID Addigning Authority OID” for testing purposes. See Gazelle Test Management under menu _Configurations-→ OIDs for Current Session_. The Patient Identity Source must use this OID for pre-connectathon and peer-to-peer tests.
 
 > Request the IHE Technical Manager the OID for your company and only perform this test using this OID.
 
@@ -50,7 +50,7 @@ The Patient Identity Source needs to have an Assigning Authority assigned to its
 
 ![](./media/image5-2.png)
 
-9. Take a screenshot of your application or your database as a proof of receipt of all ITI-44 responses. Retrieve the permanent link to the transaction instances, and paste that as evidence for this test. The screen shot demonstrates that you have successfully processed the processed all requests and response(s).
+9. Take a screenshot of your application or your database as a proof of receipt of all ITI-44 responses. The screenshot demonstrates that you have successfully processed the processed all requests and response(s).
 
 Note 1: You can use the menu “Messages Browser” to inspect and validate your messages. Click on the magnifying glass icon to inspect messages.
 
@@ -59,5 +59,8 @@ Note 1: You can use the menu “Messages Browser” to inspect and validate your
 
 When inspecting messages you will have the option to verify the validation results.
 
-
 ![](./media/image5-4.png)
+
+10. Retrieve the permanent link to the transaction instance from Patient Manager, and paste that as evidence for this test. Generated a ZIP file including all evidences you have collected. Post the generated zip file and screenshot to Gazelle Action “return log file”.  
+
+11. Change the status of the pre-connectathon test to "Verified by vendor".
