@@ -8,6 +8,10 @@ FindDocuments Stored Query and generic instructions for testing Document Consume
 
 **Resources:** NIST XDS ToolKit
 
+In these test cases, the NIST XDS Tookit acts as a simulator for an XDS.b Document Repository and Document Registry.  This enables an XDS.b Document Source to submit documents to Toolkits, and an XDS.b Document Consumer to query for and retrieve documents.
+
+You must install Toolkit locally before performing these tests.   The XDS Toolkit download and instructions are found here:  https://github.com/usnistgov/iheos-toolkit2/wiki/Toolkit
+
 **Test Procedure**  
 
 1. Use same patient ID used for Test #5001.  
