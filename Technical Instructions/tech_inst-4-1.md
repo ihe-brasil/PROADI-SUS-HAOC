@@ -21,7 +21,7 @@ Verify that PDQ Consumer can submit a Patient Demographics Query HL7V3 Continuat
 
 ![](./media/image4-6.png)
 
-4. Configure your System Under Test (SUT) to perform query based on the PDS simulator endpoint (collected on Item c). Pay attention to the ITI TF-2b Table 3.47.4.3.2.3-1: Wrappers and Constraints.
+4. Configure your System Under Test (SUT) to perform query based on the PDS simulator endpoint (See Step #3). Pay attention to the ITI TF-2b Table 3.47.4.3.2.3-1: Wrappers and Constraints.
 
 5. Your message should include a LivingSubjectName with given equal to “Jo” as part of the ParameterList class. Also, configure your message to retrieve 10 patients at maximum (“InitialQuantity” with value=10).  See examples on this [SOAPUI project](./SOAPUI%20Projects/Gazelle-Patient-Manager-examples-soapui-project).
 
