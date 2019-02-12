@@ -1,4 +1,4 @@
-### Test #6003
+### Test #6003 (Br_PM-PIXv3_Src_6003)
 
 The Patient Identity Source actor must demonstrate 3 capabilities:
 

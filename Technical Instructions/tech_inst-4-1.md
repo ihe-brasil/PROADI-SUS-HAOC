@@ -1,5 +1,5 @@
 
-### Test #6002
+### Test #6002 (Br_PM_PDQv3_Continuation_6002)
 
 Verify that PDQ Consumer can submit a Patient Demographics Query HL7V3 Continuation transaction. In these test, you will use the Patient Manager as a Patient Demographics Supplier (PDS) Simulator to respond to your PDQ Query.
 

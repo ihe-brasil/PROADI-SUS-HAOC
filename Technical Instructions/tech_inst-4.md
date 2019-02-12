@@ -1,4 +1,4 @@
-### Test #6001
+### Test #6001 (Br_PM-PDQv3_Cons_6001)
 
 Verify that PDQ Consumer can submit a Patient Demographics Query (ITI-47) transaction
 In these test, you will use the Patient Manager as a Patient Demographics Supplier (PDS) Simulator to respond to your PDQ Query.
