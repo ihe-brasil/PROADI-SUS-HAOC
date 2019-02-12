@@ -7,6 +7,8 @@
 
 **Prazo para entrega de resultados: 15/3/2019**
 
+- A lista completa de testes Pré-Connectathon está disponível no sistema Gazelle. Instruções para acesso aos [testes Pré-Connectathon](Technical%20Instructions/tech_inst-6.md).
+
 - XDS.b - Cross-Enterprise Document Sharing
 
     ator: Document Source testes [#5001](Technical%20Instructions/tech_inst-3.md) e [#5002](Technical%20Instructions/tech_inst-3-2.md)
@@ -17,7 +19,6 @@
 
 - PIXv3 ator: Patient Identity Source - teste [#6003](Technical%20Instructions/tech_inst-5.md)
 
-- Instruções para acesso aos [testes Pré-Connectathon](Technical%20Instructions/tech_inst-6.md) disponíveis no Gazelle
 
 -----
 ### Período de Registro: 7/1/2019 a 20/1/2019
