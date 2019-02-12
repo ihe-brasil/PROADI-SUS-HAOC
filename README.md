@@ -13,15 +13,18 @@
 
 - Sugestão para iniciar os testes:
 
-   - XDS.b - Cross-Enterprise Document Sharing
+   - XDS.b Cross-Enterprise Document Sharing  
+   
+        ator: Document Source - testes [#5001](Technical%20Instructions/tech_inst-3.md) e [#5002](Technical%20Instructions/tech_inst-3-2.md)  
+        ator: Document Consumer - teste [#5003](Technical%20Instructions/tech_inst-3-1.md)  
 
-        ator: Document Source testes [#5001](Technical%20Instructions/tech_inst-3.md) e [#5002](Technical%20Instructions/tech_inst-3-2.md)
+   - PDQv3 Patient Demographics Query
 
-        ator: Document Consumer teste [#5003](Technical%20Instructions/tech_inst-3-1.md)  
+        ator: Patient Demographics Consumer - testes [#6001](Technical%20Instructions/tech_inst-4.md) e [#6002](Technical%20Instructions/tech_inst-4-1.md)
 
-   - PDQv3 ator: Patient Demographics Consumer - testes [#6001](Technical%20Instructions/tech_inst-4.md) e [#6002](Technical%20Instructions/tech_inst-4-1.md)
+   - PIXv3 Patient Identifier Cross-Referencing 
 
-   - PIXv3 ator: Patient Identity Source - teste [#6003](Technical%20Instructions/tech_inst-5.md)
+        ator: Patient Identity Source - teste [#6003](Technical%20Instructions/tech_inst-5.md)
 
 -----
 ### Período de Registro: 7/1/2019 a 20/1/2019
