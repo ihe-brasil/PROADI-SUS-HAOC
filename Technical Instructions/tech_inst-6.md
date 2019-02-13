@@ -1,4 +1,4 @@
-### Instrução para acesso aos testes pré-connectathon disponíveis no sistema Gazelle
+### Instrução para acesso aos testes Pré-Connectathon
 
 
 1. Acesse o [sistema Gazelle](https://ihe.wustl.edu/gazelle-na/) com o seu usuário
@@ -15,19 +15,39 @@
 
 ![](./media/image6-3.png)
 
-5. A coluna "Option" indica se o teste é obrigatório (R) ou opcional (O). Você pode optar também por utilizar o filtro por "Option" e ver apenas os obrigatórios. Clique no perfil/ator/opção para ver a documentação relacionada com estes itens. 
+5. A coluna "Option" indica se o teste é obrigatório (R) ou opcional (O). Clique no perfil/ator/opção para ver a documentação relacionada com estes itens. 
+
+> IMPORTANTE: Os testes a seguir estão indicados como "opcionais" no Gazelle mas são obrigatórios para a Maratona de Conectividade no Brasil. A saber:
+
+   - XDS.b Cross-Enterprise Document Sharing  
+   
+        - ator: Document Source - testes [#5001](Technical%20Instructions/tech_inst-3.md) e [#5002](Technical%20Instructions/tech_inst-3-2.md)  
+        - ator: Document Consumer - teste [#5003](Technical%20Instructions/tech_inst-3-1.md)  
+
+   - PDQv3 Patient Demographics Query
+
+        - ator: Patient Demographics Consumer - testes [#6001](Technical%20Instructions/tech_inst-4.md) e [#6002](Technical%20Instructions/tech_inst-4-1.md)
+
+   - PIXv3 Patient Identifier Cross-Referencing 
+
+        - ator: Patient Identity Source - teste [#6003](Technical%20Instructions/tech_inst-5.md)
+
 
 6. Clique no "globo" para acessar instruções sobre o teste. 
 
-> Em caso de dúvidas sobre a descrição e passos a serem executados, converse com o Gerente Técnico do IHE.
+> Em caso de dúvidas sobre testes a serem realizados e os seus respectivos "passos", converse com o Gerente Técnico do IHE.
 
 ![](./media/image6-4.png)
 
-6. Volte na página com a lista de testes a executar. A coluna "Action" permite acessar a instância de teste e fazer upload de arquivos com resultados ou inserir comentários gerais sobre os testes realizados.
+![](./media/image6-3.png)
+
+6. A coluna "Action" permite acessar a instância de teste e fazer upload de arquivos com resultados ou inserir comentários gerais sobre os testes realizados. Clique em "Return log file" para inserir os resultados de seus testes. 
 
 ![](./media/image6-5.png)
 
+7. Ao final, altere o status do teste para "Verified by vendor". Após esta alteração, o teste estará disponível para ser também verificado pelos monitores da maratona.
 
+![](./media/image6-6.png)
 
 
 
