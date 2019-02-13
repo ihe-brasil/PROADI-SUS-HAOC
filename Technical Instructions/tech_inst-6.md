@@ -21,7 +21,7 @@
 
    - XDS.b Cross-Enterprise Document Sharing  
    
-        - ator: Document Source - testes [#5001 Br_XDS-Src_5001](tech_inst-3.md) e [#5002 Br_XDS-Src_5002](tech_inst-3-2.md)  
+        - ator: Document Source - testes [#5001 (Br_XDS-Src_5001)](tech_inst-3.md) e [#5002 (Br_XDS-Src_5002)](tech_inst-3-2.md)  
         - ator: Document Consumer - teste [#5003 Br_XDS-Cons_5003](tech_inst-3-1.md)  
 
    - PDQv3 Patient Demographics Query
