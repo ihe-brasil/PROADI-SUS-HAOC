@@ -11,20 +11,20 @@
 
 - Instruções para acesso aos [testes Pré-Connectathon](Technical%20Instructions/tech_inst-6.md).
 
-- Sugestão para iniciar os testes:
+> IMPORTANTE: Os testes a seguir estão indicados como "opcionais" no Gazelle mas são obrigatórios para a Maratona de Conectividade no Brasil. A saber:
 
    - XDS.b Cross-Enterprise Document Sharing  
    
-        ator: Document Source - testes [#5001](Technical%20Instructions/tech_inst-3.md) e [#5002](Technical%20Instructions/tech_inst-3-2.md)  
-        ator: Document Consumer - teste [#5003](Technical%20Instructions/tech_inst-3-1.md)  
+        - ator: Document Source - testes [#5001 (Br_XDS-Src_5001)](Technical%20Instructions/tech_inst-3.md) e [#5002 (Br_XDS-Src_5002)](Technical%20Instructions/tech_inst-3-2.md)  
+        - ator: Document Consumer - teste [#5003 (Br_XDS-Cons_5003)](Technical%20Instructions/tech_inst-3-1.md)  
 
    - PDQv3 Patient Demographics Query
 
-        ator: Patient Demographics Consumer - testes [#6001](Technical%20Instructions/tech_inst-4.md) e [#6002](Technical%20Instructions/tech_inst-4-1.md)
+        - ator: Patient Demographics Consumer - testes [#6001 (Br_PM-PDQv3_Cons_6001)](Technical%20Instructions/tech_inst-4.md) e [#6002 (Br_PM_PDQv3_Continuation_6002)](Technical%20Instructions/tech_inst-4-1.md)
 
    - PIXv3 Patient Identifier Cross-Referencing 
 
-        ator: Patient Identity Source - teste [#6003](Technical%20Instructions/tech_inst-5.md)
+        - ator: Patient Identity Source - teste [#6003 (Br_PM-PIXv3_Src_6003)](Technical%20Instructions/tech_inst-5.md)
 
 -----
 ### Período de Registro: 7/1/2019 a 20/1/2019
