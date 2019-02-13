@@ -21,16 +21,16 @@
 
    - XDS.b Cross-Enterprise Document Sharing  
    
-        - ator: Document Source - testes [#5001](Technical%20Instructions/tech_inst-3.md) e [#5002](Technical%20Instructions/tech_inst-3-2.md)  
-        - ator: Document Consumer - teste [#5003](Technical%20Instructions/tech_inst-3-1.md)  
+        - ator: Document Source - testes [#5001](tech_inst-3.md) e [#5002](tech_inst-3-2.md)  
+        - ator: Document Consumer - teste [#5003](tech_inst-3-1.md)  
 
    - PDQv3 Patient Demographics Query
 
-        - ator: Patient Demographics Consumer - testes [#6001](Technical%20Instructions/tech_inst-4.md) e [#6002](Technical%20Instructions/tech_inst-4-1.md)
+        - ator: Patient Demographics Consumer - testes [#6001](tech_inst-4.md) e [#6002](tech_inst-4-1.md)
 
    - PIXv3 Patient Identifier Cross-Referencing 
 
-        - ator: Patient Identity Source - teste [#6003](Technical%20Instructions/tech_inst-5.md)
+        - ator: Patient Identity Source - teste [#6003](tech_inst-5.md)
 
 
 6. Clique no "globo" para acessar instruções sobre o teste. 
