@@ -7,9 +7,7 @@
 
 **Prazo para entrega de resultados: 15/3/2019**
 
-- A lista completa de testes Pré-Connectathon está disponível no sistema Gazelle. 
-
-- Instruções para acesso aos [testes Pré-Connectathon](Technical%20Instructions/tech_inst-6.md).
+- A lista completa de testes Pré-Connectathon está disponível no sistema Gazelle. Instruções para [acesso aos testes](Technical%20Instructions/tech_inst-6.md).  
 
 > IMPORTANTE: Os testes a seguir estão indicados como "opcionais" no Gazelle mas são obrigatórios para a Maratona de Conectividade no Brasil. A saber:
 
