@@ -22,15 +22,15 @@
    - XDS.b Cross-Enterprise Document Sharing  
    
         - ator: Document Source - testes [#5001 (Br_XDS-Src_5001)](tech_inst-3.md) e [#5002 (Br_XDS-Src_5002)](tech_inst-3-2.md)  
-        - ator: Document Consumer - teste [#5003 Br_XDS-Cons_5003](tech_inst-3-1.md)  
+        - ator: Document Consumer - teste [#5003 (Br_XDS-Cons_5003)](tech_inst-3-1.md)  
 
    - PDQv3 Patient Demographics Query
 
-        - ator: Patient Demographics Consumer - testes [#6001 Br_PM-PDQv3_Cons_6001](tech_inst-4.md) e [#6002 Br_PM_PDQv3_Continuation_6002](tech_inst-4-1.md)
+        - ator: Patient Demographics Consumer - testes [#6001 (Br_PM-PDQv3_Cons_6001)](tech_inst-4.md) e [#6002 (Br_PM_PDQv3_Continuation_6002)](tech_inst-4-1.md)
 
    - PIXv3 Patient Identifier Cross-Referencing 
 
-        - ator: Patient Identity Source - teste [#6003 Br_PM-PIXv3_Src_6003](tech_inst-5.md)
+        - ator: Patient Identity Source - teste [#6003 (Br_PM-PIXv3_Src_6003)](tech_inst-5.md)
 
 
 6. Clique no "globo" para acessar instruções sobre o teste. 
