@@ -43,9 +43,7 @@
 
 [Projeto SOAPUI](./SOAPUI%20Projects/NIST%20XDS-Toolkit-Examples-soapui-project.xml) com exemplos baseados na utilização da ferramenta NIST XDS ToolKit 
 
-[Schemas & WSDLs](./IHE%20schemas%20&%20wsdls) e exemplos de mensagens [XDS.b](./IHE%20messages%20examples/XDS.b)
-
-Forum técnico internacional de [desenvolvedores XDS.b](https://groups.google.com/forum/#!forum/ihe-xds-implementors)
+[Schemas & WSDLs](./IHE%20schemas%20&%20wsdls) e [exemplos de mensagens](./IHE%20messages%20examples/XDS.b)
 
 Referências:  
 
@@ -55,6 +53,8 @@ Referências:
 - [IHE ITI Vol 2b ITI-42](https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol2b.pdf#page=164) - Register Document Set-b
 - [IHE ITI Vol 2b ITI-43](https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol2b.pdf#page=175) - Retrive Document Set
 - [IHE ITI Vol 3](https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol3.pdf#page=4) - Metadata used in Document Sharing profiles
+
+Forum técnico internacional de [desenvolvedores XDS.b](https://groups.google.com/forum/#!forum/ihe-xds-implementors)
 
 -----
 
@@ -68,8 +68,6 @@ Referências:
 
 Exemplo ilustrativo de mensagem [ITI-44 Patient Identity Feed "Add"](Technical%20Instructions/media/image23.png) com referências para wrappers HL7 v3.
 
-Forum técnico internacional de desenvolvedores [PIXv3/PDQv3](https://groups.google.com/forum/#!forum/ihe_pix_pdq_testing)
-
 Referências:
 
 - [IHE ITI Vol 1](https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol1.pdf#page=231) - Patient Identifier Cross-referencing HL&v3
@@ -79,6 +77,59 @@ Referências:
 - [IHE ITI Vol2b ITI-47](https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol2b.pdf#page=245) - Patient Demographics Query HL7v3
 - [IHE ITI Vol2x](https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol2x.pdf#page=59) - HL7 v3 Transmission and Trigger Event Control Act
 Wrappers
+
+Forum técnico internacional de desenvolvedores [PIXv3/PDQv3](https://groups.google.com/forum/#!forum/ihe_pix_pdq_testing)
+
+-----
+### Perfil Audit Trail and Node Authentication (ATNA)
+
+As mensagens de auditoria são organizadas por transação e respectivos atores sendo utilizados. Por exemplo, a transação ITI-18 "Registry Stored Query" envolve dois atores: "Document Consumer" e "Document Registry". Se o seu sistema irá realizar a Query ele assume o papel do ator "Document Consumer". Após realizar a consulta é necessário enviar uma mensagem de auditoria para o Audit Record Repository (ARR). Na lista de transação/ator abaixo, você encontrará o modelo de informação de mensagem de auditoria para a transação ITI-18 e o ator "Document Consumer".
+
+Um exemplo de todas as mensagens de auditoria listadas a seguir pode ser encontrado neste projeto SOAPUI.
+
+Modelos de informação de mensagens de auditoria por Transação/Ator:
+
+- Transãção XDS.b ITI-41 "Provide and Register Document Set-b"
+    
+  - Document Source audit Message. Referência: [IHE  ITI vol 2b Section 3.41.5.1.1](https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol2b.pdf#page=160) 
+  - Document Repository audit message. Referência: [IHE ITI vol 2b Section 3.41.5.1.2](https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol2b.pdf#page=162) 
+   
+- Transação XDS.b ITI-42 "Register Document Set-b"
+
+  - Document Repository audit message. Referência: [IHE ITI vol 2b Section 3.42.5.1.1](https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol2b.pdf#page=172)
+  - Document Registry audit message. Referência: [IHE ITI vol 2b Section 3.42.5.1.2](https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol2b.pdf#page=173)
+
+- Transãção XDS.b ITI-43 "Retrieve Document Set"
+
+  - Document Consumer audit message. Referência: [IHE  ITI vol 2b Section 3.43.6.1.1](https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol2b.pdf#page=189) 
+  - Document Repository audit message. Referência: [IHE ITI vol 2b Section 3.43.6.1.2](https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol2b.pdf#page=190) 
+
+- Transãção XDS.b ITI-18 "Registry Stored Query"
+
+  - Document Consumer audit message. Referência: [IHE ITI vol2a Section 3.18.5.1.1](https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol2a.pdf#page=128)
+  - Document Registry audit message. Referência: [IHE ITI vol2a Section 3.18.5.1.2](https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol2a.pdf#page=130)
+
+- Transação PIXv3 ITI-44 "Patient Identity Feed HL7 V3"
+
+  - Patient Identity Source audit message. Referência: [IHE ITI vol 2b Section 3.44.5.1.1](https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol2b.pdf#page=214) 
+  -  Patient Identifier Cross-reference Manager audit message. Referência: [IHE ITI vol 2b Section 3.44.5.1.2](https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol2b.pdf#page=215)
+ 
+- Transação PIXv3 ITI-45 "PIXV3 Query"
+
+  - Patient Identifier Cross-reference Consumer audit message. Referência: [IHE ITI vol 2b Section 3.45.5.1.1](https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol2b.pdf#page=231) 
+  -  Patient Identifier Cross-reference Manager audit message. Referência: [IHE ITI vol 2b Section 3.45.5.1.2](https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol2b.pdf#page=233)
+
+- Transação PDQv3 ITI-47 "Patient Demographics Query" HL7 V3
+
+  - Patient Demographics Consumer audit message. Referência: [IHE ITI vol 2b Section 3.45.5.1.1](https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol2b.pdf#page=268) 
+  -   Patient Demographics Supplier audit message. Referência: [IHE ITI vol 2b Section 3.45.5.1.2](https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol2b.pdf#page=270)
+ 
+
+Referências:
+
+- [IHE ITI Vol 1](https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol1.pdf#page=68) - Audit Trail and Node Authentication (ATNA) Profile
+- [IHE ITI Vol2a ITI-19](https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol2a.pdf#page=121) - Authenticate Node
+- [IHE ITI Vol2a ITI-20](https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol2a.pdf#page=138) - Record Audit Event
 
 -----
 

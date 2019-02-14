@@ -9,9 +9,10 @@ Informações sobre [Download e Instalação](https://github.com/usnistgov/iheos
 IMPORTANTE: Configuração de cache externo
 
 Se o Cache Externo não estiver configurado, uma mensagem de erro será apresentada na tela na primeira vez que o XDS ToolKit for inicializado. Neste caso, abra o arquivo toolkit.properties dentro da pasta /tomcat/webapps/**SuaApp**/WEB-INF/classes/ e configure apropriadamente o parâmetro: External_Cache.
-O path do external cache não deve ter espaços e caracteres especiais e a pasta precisa ter permissão apropriada.
 
-_SuaAPP -> nome de sua aplicação_
+_SuaAPP -> nome de sua aplicação. Exemplo de path: /opt/tomcat/webapps/xdstools7/WEB-INF/classes/_
+
+O path do external cache não deve ter espaços e caracteres especiais e a pasta precisa ter permissão apropriada.
 
 ### Leituras recomendadas
 
