@@ -85,8 +85,6 @@ Forum técnico internacional de desenvolvedores [PIXv3/PDQv3](https://groups.goo
 
 As mensagens de auditoria são organizadas por transação e respectivos atores sendo utilizados. Por exemplo, a transação ITI-18 "Registry Stored Query" envolve dois atores: "Document Consumer" e "Document Registry". Se o seu sistema irá realizar a Query ele assume o papel do ator "Document Consumer". Após realizar a consulta é necessário enviar uma mensagem de auditoria para o Audit Record Repository (ARR). Na lista de transação/ator abaixo, você encontrará o modelo de informação de mensagem de auditoria para a transação ITI-18 e o ator "Document Consumer".
 
-Um exemplo de todas as mensagens de auditoria listadas a seguir pode ser encontrado neste projeto SOAPUI.
-
 Modelos de informação de mensagens de auditoria por Transação/Ator:
 
 - Transãção XDS.b ITI-41 "Provide and Register Document Set-b"
