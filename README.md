@@ -90,7 +90,7 @@ A cada transação é necessário gerar uma mensagem de auditoria e enviá-la pa
 
 Por exemplo, pensando na transação ITI-18 "Registry Stored Query", se o seu sistema irá submeter uma consulta ele assume o papel do ator "Document Consumer". Neste caso, após submeter a consulta é necessário enviar uma mensagem "Document Consumer audit message" para o ARR. Veja o modelo de informação desta mensagem abaixo. 
 
-Na pasta [ATNA example](./ATNA%20%example/) você encontrará [exemplos de mensagens de auditoria](./ATNA%20%xample/Audit%20%messages), e uma [prova de conceito](./ATNA%20%example/POC/) que utiliza o aplicativo [Packet Sender](https://packetsender.com/) para enviar mensagens de auditoria da transação ITI-41 para o simulador de Audit Record Repository (ARR) disponível no [Gazelle Security Suite](https://gazelle.ihe.net/gss/). 
+Na pasta [ATNA example](https://github.com/ihebrasil/PROADI-SUS-HAOC/tree/master/ATNA%20example) você encontrará [exemplos de mensagens de auditoria](https://github.com/ihebrasil/PROADI-SUS-HAOC/tree/master/ATNA%20example/Audit%20messages), e uma [prova de conceito](https://github.com/ihebrasil/PROADI-SUS-HAOC/tree/master/ATNA%20example/POC) que utiliza o aplicativo [Packet Sender](https://packetsender.com/) para enviar mensagens de auditoria da transação ITI-41 para o simulador de Audit Record Repository (ARR) disponível no [Gazelle Security Suite](https://gazelle.ihe.net/gss/). 
 
 Modelos de informação de mensagens de auditoria por Transação/Ator:
 
