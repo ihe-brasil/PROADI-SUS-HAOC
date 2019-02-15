@@ -88,11 +88,16 @@ As mensagens de auditoria são definidas por transação e seus respectivos ator
 
 A cada transação é necessário gerar uma mensagem de auditoria e enviá-la para o Audit Record Repository (ARR).
 
-Por exemplo, pensando na transação ITI-18 "Registry Stored Query", se o seu sistema irá submeter uma consulta ele assume o papel do ator "Document Consumer". Após submeter a consulta é necessário enviar uma mensagem de auditoria para o Audit Record Repository (ARR). 
+Por exemplo, pensando na transação ITI-18 "Registry Stored Query", se o seu sistema irá submeter uma consulta ele assume o papel do ator "Document Consumer". Neste caso, após submeter a consulta é necessário enviar uma mensagem "Document Consumer audit message" para o ARR. Veja o modelo de informação desta mensagem abaixo. 
 
 Na pasta [ATNA example](./ATNA%20%example/) você encontrará [exemplos de mensagens de auditoria](./ATNA%20%xample/Audit%20%messages), e uma [prova de conceito](./ATNA%20%example/POC/) que utiliza o aplicativo [Packet Sender](https://packetsender.com/) para enviar mensagens de auditoria da transação ITI-41 para o simulador de Audit Record Repository (ARR) disponível no [Gazelle Security Suite](https://gazelle.ihe.net/gss/). 
 
 Modelos de informação de mensagens de auditoria por Transação/Ator:
+
+- Transãção XDS.b ITI-18 "Registry Stored Query"
+
+  - Document Consumer audit message. Referência: [IHE ITI vol2a Section 3.18.5.1.1](https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol2a.pdf#page=128)
+  - Document Registry audit message. Referência: [IHE ITI vol2a Section 3.18.5.1.2](https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol2a.pdf#page=130)
 
 - Transãção XDS.b ITI-41 "Provide and Register Document Set-b"
     
@@ -108,11 +113,6 @@ Modelos de informação de mensagens de auditoria por Transação/Ator:
 
   - Document Consumer audit message. Referência: [IHE  ITI vol 2b Section 3.43.6.1.1](https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol2b.pdf#page=189) 
   - Document Repository audit message. Referência: [IHE ITI vol 2b Section 3.43.6.1.2](https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol2b.pdf#page=190) 
-
-- Transãção XDS.b ITI-18 "Registry Stored Query"
-
-  - Document Consumer audit message. Referência: [IHE ITI vol2a Section 3.18.5.1.1](https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol2a.pdf#page=128)
-  - Document Registry audit message. Referência: [IHE ITI vol2a Section 3.18.5.1.2](https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol2a.pdf#page=130)
 
 - Transação PIXv3 ITI-44 "Patient Identity Feed HL7 V3"
 
