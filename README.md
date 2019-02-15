@@ -83,7 +83,14 @@ Forum técnico internacional de desenvolvedores [PIXv3/PDQv3](https://groups.goo
 -----
 ### Perfil Audit Trail and Node Authentication (ATNA)
 
-As mensagens de auditoria são organizadas por transação e respectivos atores sendo utilizados. Por exemplo, a transação ITI-18 "Registry Stored Query" envolve dois atores: "Document Consumer" e "Document Registry". Se o seu sistema irá realizar a Query ele assume o papel do ator "Document Consumer". Após realizar a consulta é necessário enviar uma mensagem de auditoria para o Audit Record Repository (ARR). Na lista de transação/ator abaixo, você encontrará o modelo de informação de mensagem de auditoria para a transação ITI-18 e o ator "Document Consumer".
+
+As mensagens de auditoria são definidas por transação e seus respectivos atores. Por exemplo, a transação ITI-18 "Registry Stored Query" envolve dois atores: "Document Consumer" e "Document Registry". 
+
+A cada transação é necessário gerar uma mensagem de auditoria e enviá-la para o Audit Record Repository (ARR).
+
+Por exemplo, pensando na transação ITI-18 "Registry Stored Query", se o seu sistema irá submeter uma consulta ele assume o papel do ator "Document Consumer". Após submeter a consulta é necessário enviar uma mensagem de auditoria para o Audit Record Repository (ARR). 
+
+Na pasta [ATNA example](./ATNA%20%example/) você encontrará [exemplos de mensagens de auditoria](./ATNA%20%xample/Audit%20%messages), e uma [prova de conceito](./ATNA%20%example/POC/) que utiliza o aplicativo [Packet Sender](https://packetsender.com/) para enviar mensagens de auditoria da transação ITI-41 para o simulador de Audit Record Repository (ARR) disponível no [Gazelle Security Suite](https://gazelle.ihe.net/gss/). 
 
 Modelos de informação de mensagens de auditoria por Transação/Ator:
 
