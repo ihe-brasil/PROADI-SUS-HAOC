@@ -84,13 +84,11 @@ Forum técnico internacional de desenvolvedores [PIXv3/PDQv3](https://groups.goo
 ### Perfil Audit Trail and Node Authentication (ATNA)
 
 
-As mensagens de auditoria são definidas por transação e seus respectivos atores. Por exemplo, a transação ITI-18 "Registry Stored Query" envolve dois atores: "Document Consumer" e "Document Registry". 
+Para a maioria das transações IHE existem mensagens de auditoria definidas. Por exemplo, para a transação ITI-18 "Registry Stored Query" são definidas duas mensagens de auditoria: uma relacionada com o envio da consulta pelo "Document Consumer" e outra relacionada com o recebimento da consulta pelo "Document Registry". Estas mensagem de auditoria são geradas e enviadas para o Audit Record Repository (ARR).
 
-A cada transação é necessário gerar uma mensagem de auditoria e enviá-la para o Audit Record Repository (ARR).
+Ou seja, ainda pensando na transação ITI-18 "Registry Stored Query", se o seu sistema irá submeter uma consulta ele assume o papel do ator "Document Consumer". Neste caso, após submeter a consulta é necessário enviar uma mensagem "Document Consumer audit message" para o ARR. Por outro lado, ao processar a consulta, o "Document Registry" precisa enviar uma mensagem "Document Registry audit message" para o ARR. Veja o modelo de informação destas duas mensagens abaixo. 
 
-Por exemplo, pensando na transação ITI-18 "Registry Stored Query", se o seu sistema irá submeter uma consulta ele assume o papel do ator "Document Consumer". Neste caso, após submeter a consulta é necessário enviar uma mensagem "Document Consumer audit message" para o ARR. Veja o modelo de informação desta mensagem abaixo. 
-
-Na pasta [ATNA example](https://github.com/ihebrasil/PROADI-SUS-HAOC/tree/master/ATNA%20example) você encontrará [exemplos de mensagens de auditoria](https://github.com/ihebrasil/PROADI-SUS-HAOC/tree/master/ATNA%20example/Audit%20messages), e uma [prova de conceito](https://github.com/ihebrasil/PROADI-SUS-HAOC/tree/master/ATNA%20example/POC) que utiliza o aplicativo [Packet Sender](https://packetsender.com/) para enviar mensagens de auditoria da transação ITI-41 para o simulador de Audit Record Repository (ARR) disponível no [Gazelle Security Suite](https://gazelle.ihe.net/gss/). 
+Na pasta [ATNA example](https://github.com/ihebrasil/PROADI-SUS-HAOC/tree/master/ATNA%20example) você encontrará [exemplos de mensagens de auditoria](https://github.com/ihebrasil/PROADI-SUS-HAOC/tree/master/ATNA%20example/IHE%20Transactions%20Audit%20messages), o [XML Schema](com/ihebrasil/PROADI-SUS-HAOC/tree/master/ATNA%20example/IHE%20Transactions%20Audit%20messages/DICOM.xsd) e uma [prova de conceito](https://github.com/ihebrasil/PROADI-SUS-HAOC/tree/master/ATNA%20example/Syslog%20POC) que utiliza o aplicativo [Packet Sender](https://packetsender.com/) para enviar mensagens de auditoria da transação ITI-41 para o simulador de Audit Record Repository (ARR) disponível no [Gazelle Security Suite](https://gazelle.ihe.net/gss/). 
 
 Modelos de informação de mensagens de auditoria por Transação/Ator:
 
