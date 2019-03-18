@@ -9,6 +9,7 @@
 
 Acesse a [programação](Avisos/Programaçao-web.png) e regulamento ([frente](Avisos/Regulamento-frente.png) e [verso](Avisos/Regulamento-verso.png)) para a semana de maratona. 
 
+-----
 ### Testes Pré-Connectathon
 
 **Prazo para entrega de resultados: 15/3/2019**
