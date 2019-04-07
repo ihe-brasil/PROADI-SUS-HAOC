@@ -4,7 +4,7 @@
 ### Próxima Maratona de Conectividade
 
 
-- Maiores informações no site do IHE Brasil >>> [ihe.org.br](http://ihe.org.br)
+- Acompanhe as novas informações no site do IHE Brasil >>> [ihe.org.br](http://ihe.org.br)
 
 
 -----
