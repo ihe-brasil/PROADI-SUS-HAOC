@@ -1,8 +1,16 @@
 # Maratona de Conectividade PROADI-SUS digiSUS Infoestrutura HAOC - IHE
 
+----
+### Próxima Maratona de Conectividade
+
+
+- Previsão: Julho de 2019
+
+- Inscreva sua empresa para a próxima Maratona de Conectividade. Maiores informações através do email mchaoc@ihe.org.br 
+
 
 -----
-### Preparação para a Maratona de Conectividade - 26 a 28 de Março de 2019 
+### Preparação para a Maratona de Conectividade - 18 a 22 de Março de 2019 
 
 - Enviar email para mahaoc@ihe.org.br até **segunda dia 18/03/2019** com informações sobre equipamentos de responsabilidade das empresas, que serão utilizados na sala de testes da maratona; 
 - Estudar os casos de testes definidos para o seu sistema no Gazelle Test Management/Connectathon/Connectathon;
@@ -12,7 +20,7 @@ Acesse a [programação](Avisos/Programaçao-web.png) e regulamento ([frente](Av
 -----
 ### Testes Pré-Connectathon
 
-**Prazo para entrega de resultados: 15/3/2019**
+**Prazo para publicação de evidências no Gazelle: 15/3/2019**
 
 - A lista completa de testes Pré-Connectathon está disponível no sistema Gazelle. Instruções para [acesso aos testes](Technical%20Instructions/tech_inst-6.md).  
 
