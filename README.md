@@ -4,9 +4,7 @@
 ### Próxima Maratona de Conectividade
 
 
-- Previsão: Julho de 2019
-
-- Inscreva sua empresa para a próxima Maratona de Conectividade. Maiores informações através do email mchaoc@ihe.org.br 
+- Maiores informações no site do IHE Brasil >>> [ihe.org.br](http://ihe.org.br)
 
 
 -----
