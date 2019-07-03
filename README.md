@@ -1,65 +1,24 @@
-# Maratona de Conectividade PROADI-SUS digiSUS Infoestrutura HAOC - IHE
-
-----
-### Próxima Maratona de Conectividade
-
-
-- Acompanhe as novas informações no site do IHE Brasil >>> [ihe.org.br](http://ihe.org.br)
-
+# Materiais técnicos sobre ferramentas de teste e desenvolvimento de transações IHE ITI
 
 -----
-### Preparação para a Maratona de Conectividade - 18 a 22 de Março de 2019 
-
-- Enviar email para mahaoc@ihe.org.br até **segunda dia 18/03/2019** com informações sobre equipamentos de responsabilidade das empresas, que serão utilizados na sala de testes da maratona; 
-- Estudar os casos de testes definidos para o seu sistema no Gazelle Test Management/Connectathon/Connectathon;
-
-Acesse a [programação](Avisos/Programaçao-web.png) e regulamento ([frente](Avisos/Regulamento-frente.png) e [verso](Avisos/Regulamento-verso.png)) para a semana de maratona. 
-
------
-### Testes Pré-Connectathon
-
-**Prazo para publicação de evidências no Gazelle: 15/3/2019**
-
-- A lista completa de testes Pré-Connectathon está disponível no sistema Gazelle. Instruções para [acesso aos testes](Technical%20Instructions/tech_inst-6.md).  
-
-> IMPORTANTE: Os testes a seguir estão indicados como "opcionais" no Gazelle mas são obrigatórios para a Maratona de Conectividade no Brasil. A saber:
-
-   - XDS.b Cross-Enterprise Document Sharing  
-   
-        - ator: Document Source - testes [#5001 (Br_XDS-Src_5001)](Technical%20Instructions/tech_inst-3.md) e [#5002 (Br_XDS-Src_5002)](Technical%20Instructions/tech_inst-3-2.md)  
-        - ator: Document Consumer - teste [#5003 (Br_XDS-Cons_5003)](Technical%20Instructions/tech_inst-3-1.md)  
-
-   - PDQv3 Patient Demographics Query
-
-        - ator: Patient Demographics Consumer - testes [#6001 (Br_PM-PDQv3_Cons_6001)](Technical%20Instructions/tech_inst-4.md) e [#6002 (Br_PM_PDQv3_Continuation_6002)](Technical%20Instructions/tech_inst-4-1.md)
-
-   - PIXv3 Patient Identifier Cross-Referencing 
-
-        - ator: Patient Identity Source - teste [#6003 (Br_PM-PIXv3_Src_6003)](Technical%20Instructions/tech_inst-5.md)
-
------
-### Período de Registro: 7/1/2019 a 20/1/2019
+### IHE ITI Technical Framework
 
 
-- URL de acesso ao sistema Gazelle: [https://ihe.wustl.edu/gazelle-na/](https://ihe.wustl.edu/gazelle-na/)
-
-- Instruções sobre criação de conta e processo de [Registro de Sistemas](Technical%20Instructions/tech_inst-1.md)
-
-- [Slides](http://www.ihe.org.br/siteWP/connectathon-2019-kickoff/) reunião de Kickoff e [Cronograma](http://www.ihe.org.br/siteWP/connectathon-2019-cronograma/) de atividades
+Webinar: IHE ITI Framework Introduction | https://youtu.be/609bBW9RmCg 
 
 -----
 
 ### Perfil IHE XDS.b Cross-Enterprise Document Sharing  
 
+Webinar: Document Sharing overview | https://www.youtube.com/watch?v=VG1oF5FEijY 
 
-[Considerações sobre o processo de instalação](Technical%20Instructions/tech_inst-2.md) da ferramenta [NIST XDS ToolKit](https://github.com/usnistgov/iheos-toolkit2)
+Ferramenta de testes: [NIST XDS ToolKit](https://github.com/usnistgov/iheos-toolkit2)
+Considerações sobre o [processo de instalação](Technical%20Instructions/tech_inst-2.md) 
+[Schemas & WSDLs](./IHE%20schemas%20&%20wsdls) e [exemplos de mensagens XDS.b](./IHE%20messages%20examples/XDS.b)
 
-[Projeto SOAPUI](./SOAPUI%20Projects/NIST%20XDS-Toolkit-Examples-soapui-project.xml) com exemplos baseados na utilização da ferramenta NIST XDS ToolKit 
+[Projeto SOAPUI](./SOAPUI%20Projects/NIST%20XDS-Toolkit-Examples-soapui-project.xml) com exemplos de mensagens XDS.b baseados na utilização da ferramenta NIST XDS ToolKit 
 
-[Schemas & WSDLs](./IHE%20schemas%20&%20wsdls) e [exemplos de mensagens](./IHE%20messages%20examples/XDS.b)
-
-Referências:  
-
+Leituras sugeridas:  
 - [IHE ITI Vol 1](https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol2b.pdf#page=81) - Cross-enterprise Document Sharing
 - [IHE ITI Vol 2a ITI-18](https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol2a.pdf#page=91) - Registry Stored Query
 - [IHE ITI Vol 2b ITI-41](https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol2b.pdf#page=153) - Provide and Register Document Set-b
@@ -69,17 +28,25 @@ Referências:
 
 Forum técnico internacional de [desenvolvedores XDS.b](https://groups.google.com/forum/#!forum/ihe-xds-implementors)
 
+Exemplo de Conector java desenvolvido pelo [laboratório Bridge/USFC](https://bridge.ufsc.br/)
+- https://github.com/laboratoriobridge/soap-api
+- https://github.com/laboratoriobridge/res-api
+
 -----
 
 ### Perfis IHE Patient Demographics Query (PDQv3) e Patient Identifier Cross-Referencing (PIXv3)
 
-[Projeto SOAPUI](./SOAPUI%20Projects/Gazelle-Patient-Manager-examples-soapui-project.xml) com exemplos de PIXv/PDQv3 baseados na utilização da ferramenta [Gazelle Patient Manager](https://gazelle.ihe.net/PatientManager/home.seam) 
+Webinar: Introduction of IHE PIX/PDQv3 Profiles | https://youtu.be/tO6Fd6oJ_3E 
 
-[Projeto SOAPUI](./SOAPUI%20Projects/NIST-PIXPDQ-Examples-soapui-project.xml) com exemplo PDQv3 baseado na utilização da ferramenta [NIST PIX PDQ Tool](https://pixpdqtests.nist.gov/pixpdqtool/) 
+Ferramenta de testes: [Gazelle Patient Manager](https://gazelle.ihe.net/PatientManager/home.seam)  
 
 [Schemas & WSDLs](./IHE%20schemas%20&%20wsdls) e exemplos de mensagens [PDQv3](./IHE%20messages%20examples/PDQV3) e [PIXv3](./IHE%20messages%20examples/PIXV3) 
 
-Exemplo ilustrativo de mensagem [ITI-44 Patient Identity Feed "Add"](Technical%20Instructions/media/image23.png) com referências para wrappers HL7 v3.
+[Projeto SOAPUI](./SOAPUI%20Projects/Gazelle-Patient-Manager-examples-soapui-project.xml) com exemplos de PIXv/PDQv3 baseados na utilização da ferramenta 
+
+[Projeto SOAPUI](./SOAPUI%20Projects/NIST-PIXPDQ-Examples-soapui-project.xml) com exemplos de mensagens PIXv3 e PDQv3 baseado na utilização da ferramenta [NIST PIX PDQ Tool](https://pixpdqtests.nist.gov/pixpdqtool/) 
+
+Ilustração sobre wrappers HL7 v3 para mensagem [ITI-44 Patient Identity Feed "Add"](Technical%20Instructions/media/image23.png).
 
 Referências:
 
@@ -92,6 +59,10 @@ Referências:
 Wrappers
 
 Forum técnico internacional de desenvolvedores [PIXv3/PDQv3](https://groups.google.com/forum/#!forum/ihe_pix_pdq_testing)
+
+Exemplo de Conector java desenvolvido pelo [laboratório Bridge/USFC](https://bridge.ufsc.br/)
+- https://github.com/laboratoriobridge/mpi-client
+- https://github.com/laboratoriobridge/res-api
 
 -----
 ### Perfil Audit Trail and Node Authentication (ATNA)
@@ -149,9 +120,20 @@ Referências:
 
 -----
 
-### HL7
+### Exemplos de testes Pré-Connectathon
 
-- [HL7 v3 edition 2008](./HL7v3%20Edition2008%20cd)
+   - XDS.b Cross-Enterprise Document Sharing  
+   
+        - ator: Document Source - testes [#5001 (Br_XDS-Src_5001)](Technical%20Instructions/tech_inst-3.md) e [#5002 (Br_XDS-Src_5002)](Technical%20Instructions/tech_inst-3-2.md)  
+        - ator: Document Consumer - teste [#5003 (Br_XDS-Cons_5003)](Technical%20Instructions/tech_inst-3-1.md)  
+
+   - PDQv3 Patient Demographics Query
+
+        - ator: Patient Demographics Consumer - testes [#6001 (Br_PM-PDQv3_Cons_6001)](Technical%20Instructions/tech_inst-4.md) e [#6002 (Br_PM_PDQv3_Continuation_6002)](Technical%20Instructions/tech_inst-4-1.md)
+
+   - PIXv3 Patient Identifier Cross-Referencing 
+
+        - ator: Patient Identity Source - teste [#6003 (Br_PM-PIXv3_Src_6003)](Technical%20Instructions/tech_inst-5.md)
 
 -----
 
@@ -162,14 +144,4 @@ Recursos | URL
 IHE Internacional | https://www.ihe.net 
 IHE Brasil | http://www.ihe.org.br/ 
 IHE Technical Frameworks | http://ihe.net/Technical_Frameworks 
-Webinar: IHE ITI Framework Introduction | https://youtu.be/609bBW9RmCg 
-Webinar: Document Sharing overview | https://www.youtube.com/watch?v=VG1oF5FEijY  
-Webinar: Introduction of IHE XDS/Document Sharing | https://youtu.be/zLS1mPxdbMI
-NIST XDS ToolKit | https://github.com/usnistgov/iheos-toolkit2
-Webinar: Introduction of IHE PIX/PDQv3 Profiles | https://youtu.be/tO6Fd6oJ_3E 
-Gazelle Patient Manager | https://gazelle.ihe.net/PatientManager/home.seam
-OpenEHR | http://www.openehr.org 
-Modelo de informação sumário de alta internação e registro de atendimento clínico | http://www.conass.org.br/conass-informa-n-69-republicada-resolucao-cit-n-33-que-institui-os-modelos-de-informacao-do-sumario-de-alta-e-do-registro-de-atendimento-clinico/ 
-
-
-
+[HL7 v3 edition 2008](./HL7v3%20Edition2008%20cd)
